@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="headCell" id="KGk-i7-Jjw" customClass="MUMemberHeadCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJv-5l-UGj">
+                        <rect key="frame" x="12" y="10" width="296" height="38"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gkc-9b-j7t">
+                                <rect key="frame" x="0.0" y="0.0" width="148" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="585-vq-S1Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="推荐">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="navColor">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWJ-ck-uby">
+                                <rect key="frame" x="148" y="0.0" width="148" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="最新">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="navColor">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pWJ-ck-uby" firstAttribute="top" secondItem="Gkc-9b-j7t" secondAttribute="top" id="0vy-OG-5Um"/>
+                            <constraint firstItem="Gkc-9b-j7t" firstAttribute="baseline" secondItem="pWJ-ck-uby" secondAttribute="firstBaseline" id="21u-16-umj"/>
+                            <constraint firstItem="Gkc-9b-j7t" firstAttribute="leading" secondItem="CJv-5l-UGj" secondAttribute="leading" id="8jv-P8-36B"/>
+                            <constraint firstAttribute="bottom" secondItem="Gkc-9b-j7t" secondAttribute="bottom" id="ESQ-sW-teH"/>
+                            <constraint firstAttribute="trailing" secondItem="pWJ-ck-uby" secondAttribute="trailing" id="KtF-rg-b8i"/>
+                            <constraint firstItem="pWJ-ck-uby" firstAttribute="leading" secondItem="Gkc-9b-j7t" secondAttribute="trailing" id="SH6-Y0-FAT"/>
+                            <constraint firstItem="Gkc-9b-j7t" firstAttribute="top" secondItem="CJv-5l-UGj" secondAttribute="top" id="Zd2-hM-g48"/>
+                            <constraint firstItem="Gkc-9b-j7t" firstAttribute="width" secondItem="pWJ-ck-uby" secondAttribute="width" id="qw2-i1-zDA"/>
+                            <constraint firstItem="pWJ-ck-uby" firstAttribute="baseline" secondItem="Gkc-9b-j7t" secondAttribute="firstBaseline" id="xMx-TV-EQf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CJv-5l-UGj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="34L-SR-V1f"/>
+                    <constraint firstItem="CJv-5l-UGj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="PQM-y6-VaX"/>
+                    <constraint firstItem="CJv-5l-UGj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bvF-Es-5Kc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="CJv-5l-UGj" secondAttribute="bottom" constant="1" id="dss-O0-Eb2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnView" destination="CJv-5l-UGj" id="lcf-kp-mRg"/>
+                <outlet property="tuijianBtn" destination="Gkc-9b-j7t" id="Mg7-87-FyK"/>
+                <outlet property="zuixinBtn" destination="pWJ-ck-uby" id="NEV-sT-0gT"/>
+            </connections>
+            <point key="canvasLocation" x="395" y="442"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="navColor" width="375" height="64"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

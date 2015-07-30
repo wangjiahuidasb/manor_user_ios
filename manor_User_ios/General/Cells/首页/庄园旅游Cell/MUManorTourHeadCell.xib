@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="manorTourHeadCell" rowHeight="116" id="KGk-i7-Jjw" customClass="MUManorTourHeadCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hengganLeft" translatesAutoresizingMaskIntoConstraints="NO" id="QOp-jh-muw">
+                        <rect key="frame" x="12" y="7" width="100" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="SE4-Gp-IqY"/>
+                            <constraint firstAttribute="height" constant="6" id="mxb-lG-L9W"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hengganRight" translatesAutoresizingMaskIntoConstraints="NO" id="8Pt-v5-d7J">
+                        <rect key="frame" x="208" y="7" width="100" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="fr5-zM-a85"/>
+                            <constraint firstAttribute="width" constant="100" id="unp-w9-96r"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="精品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-sm-6df">
+                        <rect key="frame" x="144" y="2" width="32" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QOp-jh-muw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="A8m-z5-A6q"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8Pt-v5-d7J" secondAttribute="bottom" constant="-2" id="E6p-RF-swd"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8Pt-v5-d7J" secondAttribute="trailing" constant="4" id="FGr-1p-blX"/>
+                    <constraint firstItem="rgx-sm-6df" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="136" id="Nif-Fq-pHB"/>
+                    <constraint firstItem="rgx-sm-6df" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="XYn-pC-Kcl"/>
+                    <constraint firstItem="QOp-jh-muw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-1" id="ZyQ-rX-5PN"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="rgx-sm-6df" secondAttribute="trailing" constant="136" id="awa-pU-uH0"/>
+                    <constraint firstAttribute="centerX" secondItem="rgx-sm-6df" secondAttribute="centerX" id="i6i-gJ-zCU"/>
+                    <constraint firstItem="8Pt-v5-d7J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-1" id="iqC-Eo-q0E"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="QOp-jh-muw" secondAttribute="bottom" constant="-2" id="j7K-jH-JED"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="rgx-sm-6df" secondAttribute="bottom" constant="-6" id="klS-P5-e2p"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="434" y="326"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hengganLeft" width="113" height="6"/>
+        <image name="hengganRight" width="113" height="6"/>
+    </resources>
+</document>

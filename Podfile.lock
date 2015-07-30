@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (3.0.8)
+  - JSONModel (1.0.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.2)
+  - UMengAnalytics (3.4.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - IQKeyboardManager (~> 3.0.6)
+  - JSONModel (~> 1.0.1)
+  - SDWebImage (~> 3.7.1)
+  - UMengAnalytics
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  IQKeyboardManager: 0bf193c2d8a4d9c2063b39d6bc9d4e45a381a02a
+  JSONModel: cbdef0fdff1cc70e913a860861d3072860efd3a1
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  UMengAnalytics: bc026b4f4a9a162cdf5adc0c53c5a498de7a73bb
+
+COCOAPODS: 0.33.1

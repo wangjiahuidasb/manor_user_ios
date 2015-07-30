@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="orderHead" id="KGk-i7-Jjw" customClass="MUOrderHeadCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-Nd-wso">
+                        <rect key="frame" x="0.0" y="10" width="320" height="40"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Gs-A4-BUa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="3M9-7N-X0A"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="framOrderManor" translatesAutoresizingMaskIntoConstraints="NO" id="ZrV-Vz-MpW">
+                                <rect key="frame" x="12" y="13" width="13" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="A84-4e-kgr"/>
+                                    <constraint firstAttribute="width" constant="13" id="ZS2-Ml-R65"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="千龙湖农业有限公司" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mlz-pD-dfB">
+                                <rect key="frame" x="33" y="12" width="198" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待付款" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tM2-ox-NZ0">
+                                <rect key="frame" x="250" y="13" width="60" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="fLA-g2-J5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.70196078429999997" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fob-Wm-g04">
+                                <rect key="frame" x="0.0" y="38" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="sK3-vi-pWM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZrV-Vz-MpW" firstAttribute="top" secondItem="tM2-ox-NZ0" secondAttribute="top" id="1rM-lr-DZc"/>
+                            <constraint firstAttribute="trailing" secondItem="tM2-ox-NZ0" secondAttribute="trailing" constant="10" id="Axx-qi-Lc9"/>
+                            <constraint firstAttribute="trailing" secondItem="7Gs-A4-BUa" secondAttribute="trailing" id="Cnu-tV-b1f"/>
+                            <constraint firstAttribute="bottom" secondItem="fob-Wm-g04" secondAttribute="bottom" constant="1" id="MMj-88-yj5"/>
+                            <constraint firstItem="ZrV-Vz-MpW" firstAttribute="centerY" secondItem="Mlz-pD-dfB" secondAttribute="centerY" id="RUK-kc-Ba1"/>
+                            <constraint firstItem="7Gs-A4-BUa" firstAttribute="top" secondItem="9ks-Nd-wso" secondAttribute="top" id="Rie-0U-v4z"/>
+                            <constraint firstItem="Mlz-pD-dfB" firstAttribute="top" secondItem="7Gs-A4-BUa" secondAttribute="bottom" constant="11" id="dYv-IK-DER"/>
+                            <constraint firstItem="7Gs-A4-BUa" firstAttribute="leading" secondItem="9ks-Nd-wso" secondAttribute="leading" id="dbL-gF-19z"/>
+                            <constraint firstAttribute="trailing" secondItem="fob-Wm-g04" secondAttribute="trailing" id="fVH-ya-I3C"/>
+                            <constraint firstItem="ZrV-Vz-MpW" firstAttribute="leading" secondItem="9ks-Nd-wso" secondAttribute="leading" constant="12" id="hPT-gA-sGC"/>
+                            <constraint firstItem="tM2-ox-NZ0" firstAttribute="leading" secondItem="Mlz-pD-dfB" secondAttribute="trailing" constant="19" id="lA9-mc-tfy"/>
+                            <constraint firstItem="Mlz-pD-dfB" firstAttribute="leading" secondItem="ZrV-Vz-MpW" secondAttribute="trailing" constant="8" symbolic="YES" id="lea-8i-L3J"/>
+                            <constraint firstItem="ZrV-Vz-MpW" firstAttribute="top" secondItem="7Gs-A4-BUa" secondAttribute="bottom" constant="12" id="lwZ-9h-Nfk"/>
+                            <constraint firstAttribute="bottom" secondItem="7Gs-A4-BUa" secondAttribute="bottom" constant="39" id="oD2-SW-T3W"/>
+                            <constraint firstItem="fob-Wm-g04" firstAttribute="leading" secondItem="9ks-Nd-wso" secondAttribute="leading" id="wH7-n3-GcP"/>
+                            <constraint firstItem="fob-Wm-g04" firstAttribute="top" secondItem="9ks-Nd-wso" secondAttribute="top" constant="39" id="xpu-9J-dp8"/>
+                            <constraint firstItem="tM2-ox-NZ0" firstAttribute="centerY" secondItem="9ks-Nd-wso" secondAttribute="centerY" id="yvQ-a5-8Tk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="oD2-SW-T3W"/>
+                                <exclude reference="xpu-9J-dp8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9ks-Nd-wso" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="I5R-OD-NCe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9ks-Nd-wso" secondAttribute="bottom" constant="-9" id="Nqh-i6-1CD"/>
+                    <constraint firstItem="9ks-Nd-wso" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="q9q-7X-Hhe"/>
+                    <constraint firstAttribute="trailing" secondItem="9ks-Nd-wso" secondAttribute="trailing" id="wCr-Fb-kD5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="manorName" destination="Mlz-pD-dfB" id="nSn-gL-TPd"/>
+                <outlet property="status" destination="tM2-ox-NZ0" id="BOQ-a3-cPc"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="282"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="framOrderManor" width="13" height="13"/>
+    </resources>
+</document>

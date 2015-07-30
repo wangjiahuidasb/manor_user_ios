@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="zchou" id="KGk-i7-Jjw" customClass="MUZChouCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXQ-th-GyL">
+                        <rect key="frame" x="0.0" y="118" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hkO-ab-pkg"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="example_3" translatesAutoresizingMaskIntoConstraints="NO" id="Mvk-SK-CVa">
+                        <rect key="frame" x="12" y="14" width="120" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="Lku-cn-oDu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="庄园测试标题庄园测试标题庄园测试标题庄园测试标题" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnh-kv-cie">
+                        <rect key="frame" x="140" y="14" width="172" height="36"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="careCancel" translatesAutoresizingMaskIntoConstraints="NO" id="aOE-6E-REJ">
+                        <rect key="frame" x="295" y="89" width="13" height="13"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-YK-Smz">
+                        <rect key="frame" x="280" y="77" width="40" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="9RM-A8-vOP"/>
+                            <constraint firstAttribute="height" constant="42" id="skT-rL-VI1"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jXQ-th-GyL" firstAttribute="top" secondItem="aOE-6E-REJ" secondAttribute="bottom" constant="16" id="8bT-BC-q2c"/>
+                    <constraint firstItem="aOE-6E-REJ" firstAttribute="top" secondItem="hnh-kv-cie" secondAttribute="bottom" constant="39" id="ENg-8T-V4F"/>
+                    <constraint firstItem="jXQ-th-GyL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GJC-7N-AhP"/>
+                    <constraint firstItem="hnh-kv-cie" firstAttribute="top" secondItem="Mvk-SK-CVa" secondAttribute="top" id="L16-fE-QdK"/>
+                    <constraint firstItem="OtZ-YK-Smz" firstAttribute="trailing" secondItem="jXQ-th-GyL" secondAttribute="trailing" id="M37-QM-3cv"/>
+                    <constraint firstItem="Mvk-SK-CVa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="UVs-Bx-fWE"/>
+                    <constraint firstItem="Mvk-SK-CVa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="adO-CV-a0n"/>
+                    <constraint firstAttribute="trailing" secondItem="aOE-6E-REJ" secondAttribute="trailing" constant="12" id="bf2-PE-MTK"/>
+                    <constraint firstItem="OtZ-YK-Smz" firstAttribute="bottom" secondItem="jXQ-th-GyL" secondAttribute="bottom" id="buu-FJ-1bm"/>
+                    <constraint firstItem="hnh-kv-cie" firstAttribute="leading" secondItem="Mvk-SK-CVa" secondAttribute="trailing" constant="8" symbolic="YES" id="eey-Lc-Ecq"/>
+                    <constraint firstAttribute="trailing" secondItem="jXQ-th-GyL" secondAttribute="trailing" id="lPV-qH-FVn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hnh-kv-cie" secondAttribute="trailing" id="nE9-PF-4Dz"/>
+                    <constraint firstAttribute="bottom" secondItem="jXQ-th-GyL" secondAttribute="bottom" id="sWI-H9-8DJ"/>
+                    <constraint firstItem="OtZ-YK-Smz" firstAttribute="top" secondItem="hnh-kv-cie" secondAttribute="bottom" constant="27" id="tyH-uB-P0k"/>
+                    <constraint firstItem="Mvk-SK-CVa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="vgc-0r-Aa0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cancelBtn" destination="OtZ-YK-Smz" id="Ugn-Du-XKc"/>
+                <outlet property="headImg" destination="Mvk-SK-CVa" id="fBu-Yf-CKt"/>
+                <outlet property="titleLabel" destination="hnh-kv-cie" id="B5U-wu-JZj"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="careCancel" width="13" height="13"/>
+        <image name="example_3" width="255" height="170"/>
+    </resources>
+</document>

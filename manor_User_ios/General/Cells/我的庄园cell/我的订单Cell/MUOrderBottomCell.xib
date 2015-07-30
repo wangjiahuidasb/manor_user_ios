@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="orderBottom" id="KGk-i7-Jjw" customClass="MUOrderBottomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SE8-zG-tcg">
+                        <rect key="frame" x="228" y="5" width="80" height="30"/>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.70196078429999997" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="loG-oc-NVq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="确认收货">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEj-Xh-p9r">
+                        <rect key="frame" x="228" y="5" width="80" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Wpg-EU-WtA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="立即评价">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VeI-Ph-tVc">
+                        <rect key="frame" x="0.0" y="38" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6k6-Qn-RPy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gEj-Xh-p9r" firstAttribute="top" secondItem="SE8-zG-tcg" secondAttribute="top" id="7Yj-QD-a7d"/>
+                    <constraint firstItem="gEj-Xh-p9r" firstAttribute="trailing" secondItem="SE8-zG-tcg" secondAttribute="trailing" id="B4B-jw-Ikq"/>
+                    <constraint firstItem="gEj-Xh-p9r" firstAttribute="leading" secondItem="SE8-zG-tcg" secondAttribute="leading" id="Bky-aq-2CP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gEj-Xh-p9r" secondAttribute="trailing" constant="4" id="J0U-MO-lNO"/>
+                    <constraint firstItem="SE8-zG-tcg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="Zut-mY-Wes"/>
+                    <constraint firstAttribute="trailing" secondItem="VeI-Ph-tVc" secondAttribute="trailing" id="b6R-Wy-RCP"/>
+                    <constraint firstAttribute="bottom" secondItem="VeI-Ph-tVc" secondAttribute="bottom" id="cCw-aO-kgM"/>
+                    <constraint firstItem="gEj-Xh-p9r" firstAttribute="baseline" secondItem="SE8-zG-tcg" secondAttribute="firstBaseline" id="ics-pc-2kL"/>
+                    <constraint firstItem="SE8-zG-tcg" firstAttribute="baseline" secondItem="gEj-Xh-p9r" secondAttribute="firstBaseline" id="jBj-dE-mh9"/>
+                    <constraint firstItem="VeI-Ph-tVc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pyD-lR-8lx"/>
+                    <constraint firstItem="VeI-Ph-tVc" firstAttribute="top" secondItem="SE8-zG-tcg" secondAttribute="bottom" constant="3" id="wD7-6j-JFv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="colorBtn" destination="SE8-zG-tcg" id="TKw-fP-iD2"/>
+                <outlet property="commentBtn" destination="gEj-Xh-p9r" id="nSJ-id-174"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

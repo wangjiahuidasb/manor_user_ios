@@ -1,0 +1,1558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401072691B620C0C005F6492 /* MUMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401072671B620C0C005F6492 /* MUMemberViewController.m */; };
+		4010726A1B620C0C005F6492 /* MUMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401072681B620C0C005F6492 /* MUMemberViewController.xib */; };
+		401072791B6211AC005F6492 /* MUMemberContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 401072771B6211AB005F6492 /* MUMemberContentCell.m */; };
+		4010727A1B6211AC005F6492 /* MUMemberContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401072781B6211AB005F6492 /* MUMemberContentCell.xib */; };
+		4010727E1B621F15005F6492 /* MUMemberHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4010727C1B621F15005F6492 /* MUMemberHeadCell.m */; };
+		4010727F1B621F15005F6492 /* MUMemberHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4010727D1B621F15005F6492 /* MUMemberHeadCell.xib */; };
+		404350701B58E72400EF6E1C /* MUCarHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043506E1B58E72300EF6E1C /* MUCarHeadCell.m */; };
+		404350711B58E72400EF6E1C /* MUCarHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4043506F1B58E72300EF6E1C /* MUCarHeadCell.xib */; };
+		404350751B58E82200EF6E1C /* MUCarManorHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 404350731B58E82200EF6E1C /* MUCarManorHeadCell.m */; };
+		404350761B58E82200EF6E1C /* MUCarManorHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404350741B58E82200EF6E1C /* MUCarManorHeadCell.xib */; };
+		4043507A1B58EA8900EF6E1C /* MUCarContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 404350781B58EA8900EF6E1C /* MUCarContentCell.m */; };
+		4043507B1B58EA8900EF6E1C /* MUCarContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404350791B58EA8900EF6E1C /* MUCarContentCell.xib */; };
+		4043507F1B58F3AB00EF6E1C /* MUCarBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043507D1B58F3A900EF6E1C /* MUCarBottomCell.m */; };
+		404350801B58F3AC00EF6E1C /* MUCarBottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4043507E1B58F3A900EF6E1C /* MUCarBottomCell.xib */; };
+		40551B141B54BE04003F70E6 /* MUManageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40551B121B54BE03003F70E6 /* MUManageDetailViewController.m */; };
+		40551B151B54BE04003F70E6 /* MUManageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40551B131B54BE03003F70E6 /* MUManageDetailViewController.xib */; };
+		40551B1A1B54E253003F70E6 /* MULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40551B181B54E253003F70E6 /* MULoginViewController.m */; };
+		40551B1B1B54E253003F70E6 /* MULoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40551B191B54E253003F70E6 /* MULoginViewController.xib */; };
+		405F31281B4FA27D00C29E34 /* MUMyCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405F31261B4FA27C00C29E34 /* MUMyCareViewController.m */; };
+		405F31291B4FA27D00C29E34 /* MUMyCareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405F31271B4FA27C00C29E34 /* MUMyCareViewController.xib */; };
+		405F312E1B4FA92400C29E34 /* MUStrategyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 405F312C1B4FA92400C29E34 /* MUStrategyCell.m */; };
+		405F312F1B4FA92400C29E34 /* MUStrategyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405F312D1B4FA92400C29E34 /* MUStrategyCell.xib */; };
+		406458991B5363E600AD48A8 /* MUMyTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406458971B5363E500AD48A8 /* MUMyTourViewController.m */; };
+		4064589A1B5363E600AD48A8 /* MUMyTourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406458981B5363E500AD48A8 /* MUMyTourViewController.xib */; };
+		4064589F1B53B0D000AD48A8 /* MUMyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4064589D1B53B0D000AD48A8 /* MUMyAddressViewController.m */; };
+		406458A01B53B0D000AD48A8 /* MUMyAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4064589E1B53B0D000AD48A8 /* MUMyAddressViewController.xib */; };
+		406458A51B53B30B00AD48A8 /* MUManageAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 406458A31B53B30B00AD48A8 /* MUManageAddressCell.m */; };
+		406458A61B53B30B00AD48A8 /* MUManageAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406458A41B53B30B00AD48A8 /* MUManageAddressCell.xib */; };
+		406458AA1B53C17B00AD48A8 /* MUNewAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406458A81B53C17B00AD48A8 /* MUNewAddressViewController.m */; };
+		406458AB1B53C17B00AD48A8 /* MUNewAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406458A91B53C17B00AD48A8 /* MUNewAddressViewController.xib */; };
+		40737C861B60C7090020E8CA /* MUSeachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40737C841B60C7080020E8CA /* MUSeachViewController.m */; };
+		40737C871B60C7090020E8CA /* MUSeachViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40737C851B60C7090020E8CA /* MUSeachViewController.xib */; };
+		407904541B55F98300B67B9E /* MURegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407904521B55F98300B67B9E /* MURegisterViewController.m */; };
+		407904551B55F98300B67B9E /* MURegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407904531B55F98300B67B9E /* MURegisterViewController.xib */; };
+		407904591B56091300B67B9E /* MUForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407904571B56091300B67B9E /* MUForgetPwdViewController.m */; };
+		4079045A1B56091300B67B9E /* MUForgetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407904581B56091300B67B9E /* MUForgetPwdViewController.xib */; };
+		407904681B56496D00B67B9E /* MUAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407904661B56496D00B67B9E /* MUAboutUsViewController.m */; };
+		407904691B56496D00B67B9E /* MUAboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407904671B56496D00B67B9E /* MUAboutUsViewController.xib */; };
+		40E947451B4FAFF300137CDD /* MUGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E947431B4FAFF300137CDD /* MUGoodsCell.m */; };
+		40E947461B4FAFF300137CDD /* MUGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E947441B4FAFF300137CDD /* MUGoodsCell.xib */; };
+		40E9474A1B4FB40A00137CDD /* MUZChouCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E947481B4FB40A00137CDD /* MUZChouCell.m */; };
+		40E9474B1B4FB40A00137CDD /* MUZChouCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E947491B4FB40A00137CDD /* MUZChouCell.xib */; };
+		40E9474F1B4FB86100137CDD /* MUManorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9474D1B4FB86100137CDD /* MUManorCell.m */; };
+		40E947501B4FB86100137CDD /* MUManorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9474E1B4FB86100137CDD /* MUManorCell.xib */; };
+		40EA59C81B5895CB00B81FE8 /* MUFarmApplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59801B5895CA00B81FE8 /* MUFarmApplyTableViewCell.m */; };
+		40EA59C91B5895CB00B81FE8 /* MUFarmApplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59811B5895CA00B81FE8 /* MUFarmApplyTableViewCell.xib */; };
+		40EA59CA1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59831B5895CA00B81FE8 /* MUFarmTypeTableViewCell.m */; };
+		40EA59CB1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59841B5895CA00B81FE8 /* MUFarmTypeTableViewCell.xib */; };
+		40EA59CC1B5895CB00B81FE8 /* MUFDetailHeadImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59861B5895CA00B81FE8 /* MUFDetailHeadImgCell.m */; };
+		40EA59CD1B5895CB00B81FE8 /* MUFDetailHeadImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59871B5895CA00B81FE8 /* MUFDetailHeadImgCell.xib */; };
+		40EA59CE1B5895CB00B81FE8 /* MUFOrderAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA598A1B5895CA00B81FE8 /* MUFOrderAddressCell.m */; };
+		40EA59CF1B5895CB00B81FE8 /* MUFOrderAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA598B1B5895CA00B81FE8 /* MUFOrderAddressCell.xib */; };
+		40EA59D01B5895CB00B81FE8 /* MUFOrderCommonCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA598D1B5895CA00B81FE8 /* MUFOrderCommonCouponCell.m */; };
+		40EA59D11B5895CB00B81FE8 /* MUFOrderCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA598F1B5895CA00B81FE8 /* MUFOrderCouponCell.m */; };
+		40EA59D21B5895CB00B81FE8 /* MUFOrderCouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59901B5895CA00B81FE8 /* MUFOrderCouponCell.xib */; };
+		40EA59D31B5895CB00B81FE8 /* MUFOrderCouponHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59921B5895CA00B81FE8 /* MUFOrderCouponHeadCell.m */; };
+		40EA59D41B5895CB00B81FE8 /* MUFOrderCouponHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59931B5895CA00B81FE8 /* MUFOrderCouponHeadCell.xib */; };
+		40EA59D51B5895CB00B81FE8 /* MUFOrderCouponNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59951B5895CA00B81FE8 /* MUFOrderCouponNoteCell.m */; };
+		40EA59D61B5895CB00B81FE8 /* MUFOrderCouponNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59961B5895CA00B81FE8 /* MUFOrderCouponNoteCell.xib */; };
+		40EA59D71B5895CB00B81FE8 /* MUFOrderDeliverFeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59981B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.m */; };
+		40EA59D81B5895CB00B81FE8 /* MUFOrderDeliverFeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59991B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.xib */; };
+		40EA59D91B5895CB00B81FE8 /* MUFOrderDeliverNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA599B1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.m */; };
+		40EA59DA1B5895CB00B81FE8 /* MUFOrderDeliverNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA599C1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.xib */; };
+		40EA59DB1B5895CB00B81FE8 /* MUFOrderGoodsContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA599E1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.m */; };
+		40EA59DC1B5895CB00B81FE8 /* MUFOrderGoodsContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA599F1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.xib */; };
+		40EA59DD1B5895CB00B81FE8 /* MUFOrderGoodsHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59A11B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.m */; };
+		40EA59DE1B5895CB00B81FE8 /* MUFOrderGoodsHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59A21B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.xib */; };
+		40EA59DF1B5895CB00B81FE8 /* MUFOrderSumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59A41B5895CA00B81FE8 /* MUFOrderSumCell.m */; };
+		40EA59E01B5895CB00B81FE8 /* MUFOrderSumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59A51B5895CA00B81FE8 /* MUFOrderSumCell.xib */; };
+		40EA59E11B5895CB00B81FE8 /* MUFDetailCommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59A81B5895CB00B81FE8 /* MUFDetailCommentsCell.m */; };
+		40EA59E21B5895CB00B81FE8 /* MUFDetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59AA1B5895CB00B81FE8 /* MUFDetailContentCell.m */; };
+		40EA59E31B5895CB00B81FE8 /* MUFDetailContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59AB1B5895CB00B81FE8 /* MUFDetailContentCell.xib */; };
+		40EA59E41B5895CB00B81FE8 /* MUFDetailManorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59AD1B5895CB00B81FE8 /* MUFDetailManorCell.m */; };
+		40EA59E51B5895CB00B81FE8 /* MUFDetailManorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59AE1B5895CB00B81FE8 /* MUFDetailManorCell.xib */; };
+		40EA59E61B5895CB00B81FE8 /* MUManorTourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59B11B5895CB00B81FE8 /* MUManorTourCell.m */; };
+		40EA59E71B5895CB00B81FE8 /* MUManorTourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59B21B5895CB00B81FE8 /* MUManorTourCell.xib */; };
+		40EA59E81B5895CB00B81FE8 /* MUManorTourHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59B41B5895CB00B81FE8 /* MUManorTourHeadCell.m */; };
+		40EA59E91B5895CB00B81FE8 /* MUManorTourHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59B51B5895CB00B81FE8 /* MUManorTourHeadCell.xib */; };
+		40EA59EA1B5895CB00B81FE8 /* MUManorTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59B71B5895CB00B81FE8 /* MUManorTypeTableViewCell.m */; };
+		40EA59EB1B5895CB00B81FE8 /* MUManorTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59B81B5895CB00B81FE8 /* MUManorTypeTableViewCell.xib */; };
+		40EA59EC1B5895CB00B81FE8 /* MUMDetailHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59BB1B5895CB00B81FE8 /* MUMDetailHeadCell.m */; };
+		40EA59ED1B5895CB00B81FE8 /* MUMDetailHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59BC1B5895CB00B81FE8 /* MUMDetailHeadCell.xib */; };
+		40EA59EE1B5895CB00B81FE8 /* MUMDetailTourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59BE1B5895CB00B81FE8 /* MUMDetailTourCell.m */; };
+		40EA59EF1B5895CB00B81FE8 /* MUMDetailTourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59BF1B5895CB00B81FE8 /* MUMDetailTourCell.xib */; };
+		40EA59F01B5895CB00B81FE8 /* MUMDetailTourHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59C11B5895CB00B81FE8 /* MUMDetailTourHeadCell.m */; };
+		40EA59F11B5895CB00B81FE8 /* MUMDetailTourHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59C21B5895CB00B81FE8 /* MUMDetailTourHeadCell.xib */; };
+		40EA59F21B5895CB00B81FE8 /* MUTDetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59C51B5895CB00B81FE8 /* MUTDetailContentCell.m */; };
+		40EA59F31B5895CB00B81FE8 /* MUTDetailContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59C61B5895CB00B81FE8 /* MUTDetailContentCell.xib */; };
+		40EA59F71B5895F700B81FE8 /* MUActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59F51B5895F700B81FE8 /* MUActivityCell.m */; };
+		40EA59F81B5895F700B81FE8 /* MUActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59F61B5895F700B81FE8 /* MUActivityCell.xib */; };
+		40EA59FC1B58A13600B81FE8 /* MUSecKillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA59FA1B58A13500B81FE8 /* MUSecKillViewController.m */; };
+		40EA59FD1B58A13600B81FE8 /* MUSecKillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA59FB1B58A13500B81FE8 /* MUSecKillViewController.xib */; };
+		40EA5A021B58A23700B81FE8 /* MUSecKillHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA5A001B58A23700B81FE8 /* MUSecKillHeadCell.m */; };
+		40EA5A031B58A23700B81FE8 /* MUSecKillHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA5A011B58A23700B81FE8 /* MUSecKillHeadCell.xib */; };
+		40EA5A071B58ABB300B81FE8 /* MUSecKillContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA5A051B58ABB300B81FE8 /* MUSecKillContentCell.m */; };
+		40EA5A081B58ABB300B81FE8 /* MUSecKillContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA5A061B58ABB300B81FE8 /* MUSecKillContentCell.xib */; };
+		40F5FAD01B57A80C005E5BF4 /* MUActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F5FACE1B57A80C005E5BF4 /* MUActivityViewController.m */; };
+		40F5FAD11B57A80C005E5BF4 /* MUActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F5FACF1B57A80C005E5BF4 /* MUActivityViewController.xib */; };
+		40F972191B4A552D00F7AE09 /* MUOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F972171B4A552D00F7AE09 /* MUOrderDetailViewController.m */; };
+		40F9721A1B4A552D00F7AE09 /* MUOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F972181B4A552D00F7AE09 /* MUOrderDetailViewController.xib */; };
+		40F9721F1B4A587800F7AE09 /* MUOrderDetailHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9721D1B4A587800F7AE09 /* MUOrderDetailHeadCell.m */; };
+		40F972201B4A587800F7AE09 /* MUOrderDetailHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F9721E1B4A587800F7AE09 /* MUOrderDetailHeadCell.xib */; };
+		40F972241B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F972221B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.m */; };
+		40F972251B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F972231B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.xib */; };
+		40F972291B4A6A0900F7AE09 /* MUOrderDetailAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F972271B4A6A0900F7AE09 /* MUOrderDetailAddressCell.m */; };
+		40F9722A1B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F972281B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib */; };
+		40F9722E1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9722C1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.m */; };
+		40F9722F1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F9722D1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.xib */; };
+		8D3850191B15B97C007D0B2A /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3850181B15B97C007D0B2A /* Tools.m */; };
+		8D3AE3BA1B1440FE00D35EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3B91B1440FE00D35EED /* main.m */; };
+		8D3AE3BD1B1440FE00D35EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3BC1B1440FE00D35EED /* AppDelegate.m */; };
+		8D3AE3C51B1440FE00D35EED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3C41B1440FE00D35EED /* Images.xcassets */; };
+		8D3AE3C81B1440FF00D35EED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3C61B1440FF00D35EED /* LaunchScreen.xib */; };
+		8D3AE3E71B14464E00D35EED /* MUHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3E51B14464E00D35EED /* MUHomePageViewController.m */; };
+		8D3AE3E81B14464E00D35EED /* MUHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3E61B14464E00D35EED /* MUHomePageViewController.xib */; };
+		8D3AE3EC1B14466E00D35EED /* MUMyManorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3EA1B14466E00D35EED /* MUMyManorViewController.m */; };
+		8D3AE3ED1B14466E00D35EED /* MUMyManorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3EB1B14466E00D35EED /* MUMyManorViewController.xib */; };
+		8D3AE3F11B14468500D35EED /* MUShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3EF1B14468500D35EED /* MUShopCartViewController.m */; };
+		8D3AE3F21B14468500D35EED /* MUShopCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3F01B14468500D35EED /* MUShopCartViewController.xib */; };
+		8D3AE3F61B14469800D35EED /* MUCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3F41B14469800D35EED /* MUCategoryViewController.m */; };
+		8D3AE3F71B14469800D35EED /* MUCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AE3F51B14469800D35EED /* MUCategoryViewController.xib */; };
+		8D3AE4011B14474200D35EED /* EScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3FC1B14474200D35EED /* EScrollerView.m */; };
+		8D3AE4021B14474200D35EED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE3FE1B14474200D35EED /* MBProgressHUD.m */; };
+		8D3AE4061B14485600D35EED /* MUTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AE4051B14485600D35EED /* MUTabBarViewController.m */; };
+		8D4140661B3CF826003A6EE6 /* MUEditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4140641B3CF826003A6EE6 /* MUEditInfoViewController.m */; };
+		8D4140671B3CF826003A6EE6 /* MUEditInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4140651B3CF826003A6EE6 /* MUEditInfoViewController.xib */; };
+		8D4222E01B41463200B229B7 /* MUCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4222DE1B41463200B229B7 /* MUCouponViewController.m */; };
+		8D4222E11B41463200B229B7 /* MUCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4222DF1B41463200B229B7 /* MUCouponViewController.xib */; };
+		8D4277D51B422D9D0046D5E0 /* MUCouponTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277D31B422D9D0046D5E0 /* MUCouponTableViewCell.m */; };
+		8D4277D61B422D9D0046D5E0 /* MUCouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277D41B422D9D0046D5E0 /* MUCouponTableViewCell.xib */; };
+		8D4277DC1B422EC40046D5E0 /* MUMyOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277DA1B422EC40046D5E0 /* MUMyOrderListViewController.m */; };
+		8D4277DD1B422EC40046D5E0 /* MUMyOrderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277DB1B422EC40046D5E0 /* MUMyOrderListViewController.xib */; };
+		8D4277E11B4236890046D5E0 /* MUOrderHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277DF1B4236890046D5E0 /* MUOrderHeadCell.m */; };
+		8D4277E21B4236890046D5E0 /* MUOrderHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277E01B4236890046D5E0 /* MUOrderHeadCell.xib */; };
+		8D4277E61B423A080046D5E0 /* MUOrderContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277E41B423A080046D5E0 /* MUOrderContentCell.m */; };
+		8D4277E71B423A080046D5E0 /* MUOrderContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277E51B423A080046D5E0 /* MUOrderContentCell.xib */; };
+		8D4277EB1B4246200046D5E0 /* MUOrderPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277E91B4246200046D5E0 /* MUOrderPayCell.m */; };
+		8D4277EC1B4246200046D5E0 /* MUOrderPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277EA1B4246200046D5E0 /* MUOrderPayCell.xib */; };
+		8D4277F01B42491D0046D5E0 /* MUOrderBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277EE1B42491D0046D5E0 /* MUOrderBottomCell.m */; };
+		8D4277F11B42491D0046D5E0 /* MUOrderBottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277EF1B42491D0046D5E0 /* MUOrderBottomCell.xib */; };
+		8D4277F51B424CEC0046D5E0 /* MUOrderMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277F31B424CEC0046D5E0 /* MUOrderMoreCell.m */; };
+		8D4277F61B424CEC0046D5E0 /* MUOrderMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277F41B424CEC0046D5E0 /* MUOrderMoreCell.xib */; };
+		8D4277FB1B4293970046D5E0 /* MUPublicCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277F91B4293970046D5E0 /* MUPublicCommentsViewController.m */; };
+		8D4277FC1B4293970046D5E0 /* MUPublicCommentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4277FA1B4293970046D5E0 /* MUPublicCommentsViewController.xib */; };
+		8D4278011B4295010046D5E0 /* MUMyCommentsGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4277FF1B4295010046D5E0 /* MUMyCommentsGoodsCell.m */; };
+		8D4278021B4295010046D5E0 /* MUMyCommentsGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4278001B4295010046D5E0 /* MUMyCommentsGoodsCell.xib */; };
+		8D4278061B42951D0046D5E0 /* MUMyCommentsNotesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4278041B42951D0046D5E0 /* MUMyCommentsNotesCell.m */; };
+		8D4278071B42951D0046D5E0 /* MUMyCommentsNotesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4278051B42951D0046D5E0 /* MUMyCommentsNotesCell.xib */; };
+		8D44840E1B2974520018EAFF /* MUFarmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D44840C1B2974520018EAFF /* MUFarmOrderViewController.m */; };
+		8D44840F1B2974520018EAFF /* MUFarmOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D44840D1B2974520018EAFF /* MUFarmOrderViewController.xib */; };
+		8D45C5051B2FC50900B8552F /* MUManorTourDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D45C5031B2FC50900B8552F /* MUManorTourDetailViewController.m */; };
+		8D45C5061B2FC50900B8552F /* MUManorTourDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D45C5041B2FC50900B8552F /* MUManorTourDetailViewController.xib */; };
+		8D4701CD1B32526500901232 /* MUTourListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4701CB1B32526500901232 /* MUTourListViewController.m */; };
+		8D4701CE1B32526500901232 /* MUTourListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4701CC1B32526500901232 /* MUTourListViewController.xib */; };
+		8D4701D21B325EF400901232 /* MUTourOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4701D01B325EF400901232 /* MUTourOrderViewController.m */; };
+		8D4701D31B325EF400901232 /* MUTourOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4701D11B325EF400901232 /* MUTourOrderViewController.xib */; };
+		8D4701D81B3269BC00901232 /* MUCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4701D61B3269BC00901232 /* MUCommentViewController.m */; };
+		8D4701D91B3269BC00901232 /* MUCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4701D71B3269BC00901232 /* MUCommentViewController.xib */; };
+		8D51F9EE1B25250C00B6F13E /* MUFarmApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D51F9EC1B25250C00B6F13E /* MUFarmApplyViewController.m */; };
+		8D51F9EF1B25250C00B6F13E /* MUFarmApplyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D51F9ED1B25250C00B6F13E /* MUFarmApplyViewController.xib */; };
+		8D51F9F91B25336B00B6F13E /* MUScrollViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D51F9F81B25336B00B6F13E /* MUScrollViewTableViewCell.m */; };
+		8D64D6521B2EC4D900A6A017 /* MUManorTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D64D6501B2EC4D900A6A017 /* MUManorTourViewController.m */; };
+		8D64D6531B2EC4D900A6A017 /* MUManorTourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D64D6511B2EC4D900A6A017 /* MUManorTourViewController.xib */; };
+		8DF689D21B2672FF00A9CC91 /* MUFarmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF689D01B2672FF00A9CC91 /* MUFarmDetailViewController.m */; };
+		8DF689D31B2672FF00A9CC91 /* MUFarmDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF689D11B2672FF00A9CC91 /* MUFarmDetailViewController.xib */; };
+		8DFC69E11B311FD0008EA84B /* MUTourDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC69DF1B311FD0008EA84B /* MUTourDetailViewController.m */; };
+		8DFC69E21B311FD0008EA84B /* MUTourDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC69E01B311FD0008EA84B /* MUTourDetailViewController.xib */; };
+		E2A233B371E44F2EB3D3C4A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8D54B315254013A13EC663 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A163044895D4E12BD79A902 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		401072661B620C0C005F6492 /* MUMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMemberViewController.h; sourceTree = "<group>"; };
+		401072671B620C0C005F6492 /* MUMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMemberViewController.m; sourceTree = "<group>"; };
+		401072681B620C0C005F6492 /* MUMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMemberViewController.xib; sourceTree = "<group>"; };
+		401072761B6211AB005F6492 /* MUMemberContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMemberContentCell.h; sourceTree = "<group>"; };
+		401072771B6211AB005F6492 /* MUMemberContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMemberContentCell.m; sourceTree = "<group>"; };
+		401072781B6211AB005F6492 /* MUMemberContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMemberContentCell.xib; sourceTree = "<group>"; };
+		4010727B1B621F15005F6492 /* MUMemberHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMemberHeadCell.h; sourceTree = "<group>"; };
+		4010727C1B621F15005F6492 /* MUMemberHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMemberHeadCell.m; sourceTree = "<group>"; };
+		4010727D1B621F15005F6492 /* MUMemberHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMemberHeadCell.xib; sourceTree = "<group>"; };
+		4043506D1B58E72300EF6E1C /* MUCarHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCarHeadCell.h; sourceTree = "<group>"; };
+		4043506E1B58E72300EF6E1C /* MUCarHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCarHeadCell.m; sourceTree = "<group>"; };
+		4043506F1B58E72300EF6E1C /* MUCarHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCarHeadCell.xib; sourceTree = "<group>"; };
+		404350721B58E82200EF6E1C /* MUCarManorHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCarManorHeadCell.h; sourceTree = "<group>"; };
+		404350731B58E82200EF6E1C /* MUCarManorHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCarManorHeadCell.m; sourceTree = "<group>"; };
+		404350741B58E82200EF6E1C /* MUCarManorHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCarManorHeadCell.xib; sourceTree = "<group>"; };
+		404350771B58EA8900EF6E1C /* MUCarContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCarContentCell.h; sourceTree = "<group>"; };
+		404350781B58EA8900EF6E1C /* MUCarContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCarContentCell.m; sourceTree = "<group>"; };
+		404350791B58EA8900EF6E1C /* MUCarContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCarContentCell.xib; sourceTree = "<group>"; };
+		4043507C1B58F3A800EF6E1C /* MUCarBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCarBottomCell.h; sourceTree = "<group>"; };
+		4043507D1B58F3A900EF6E1C /* MUCarBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCarBottomCell.m; sourceTree = "<group>"; };
+		4043507E1B58F3A900EF6E1C /* MUCarBottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCarBottomCell.xib; sourceTree = "<group>"; };
+		40551B111B54BE03003F70E6 /* MUManageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManageDetailViewController.h; sourceTree = "<group>"; };
+		40551B121B54BE03003F70E6 /* MUManageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManageDetailViewController.m; sourceTree = "<group>"; };
+		40551B131B54BE03003F70E6 /* MUManageDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManageDetailViewController.xib; sourceTree = "<group>"; };
+		40551B171B54E253003F70E6 /* MULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULoginViewController.h; sourceTree = "<group>"; };
+		40551B181B54E253003F70E6 /* MULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULoginViewController.m; sourceTree = "<group>"; };
+		40551B191B54E253003F70E6 /* MULoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MULoginViewController.xib; sourceTree = "<group>"; };
+		405F31251B4FA27C00C29E34 /* MUMyCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyCareViewController.h; sourceTree = "<group>"; };
+		405F31261B4FA27C00C29E34 /* MUMyCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyCareViewController.m; sourceTree = "<group>"; };
+		405F31271B4FA27C00C29E34 /* MUMyCareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyCareViewController.xib; sourceTree = "<group>"; };
+		405F312B1B4FA92300C29E34 /* MUStrategyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUStrategyCell.h; sourceTree = "<group>"; };
+		405F312C1B4FA92400C29E34 /* MUStrategyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUStrategyCell.m; sourceTree = "<group>"; };
+		405F312D1B4FA92400C29E34 /* MUStrategyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUStrategyCell.xib; sourceTree = "<group>"; };
+		406458961B5363E500AD48A8 /* MUMyTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyTourViewController.h; sourceTree = "<group>"; };
+		406458971B5363E500AD48A8 /* MUMyTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyTourViewController.m; sourceTree = "<group>"; };
+		406458981B5363E500AD48A8 /* MUMyTourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyTourViewController.xib; sourceTree = "<group>"; };
+		4064589C1B53B0D000AD48A8 /* MUMyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyAddressViewController.h; sourceTree = "<group>"; };
+		4064589D1B53B0D000AD48A8 /* MUMyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyAddressViewController.m; sourceTree = "<group>"; };
+		4064589E1B53B0D000AD48A8 /* MUMyAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyAddressViewController.xib; sourceTree = "<group>"; };
+		406458A21B53B30B00AD48A8 /* MUManageAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManageAddressCell.h; sourceTree = "<group>"; };
+		406458A31B53B30B00AD48A8 /* MUManageAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManageAddressCell.m; sourceTree = "<group>"; };
+		406458A41B53B30B00AD48A8 /* MUManageAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManageAddressCell.xib; sourceTree = "<group>"; };
+		406458A71B53C17B00AD48A8 /* MUNewAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNewAddressViewController.h; sourceTree = "<group>"; };
+		406458A81B53C17B00AD48A8 /* MUNewAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNewAddressViewController.m; sourceTree = "<group>"; };
+		406458A91B53C17B00AD48A8 /* MUNewAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUNewAddressViewController.xib; sourceTree = "<group>"; };
+		40737C831B60C7080020E8CA /* MUSeachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSeachViewController.h; sourceTree = "<group>"; };
+		40737C841B60C7080020E8CA /* MUSeachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSeachViewController.m; sourceTree = "<group>"; };
+		40737C851B60C7090020E8CA /* MUSeachViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUSeachViewController.xib; sourceTree = "<group>"; };
+		407904511B55F98300B67B9E /* MURegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MURegisterViewController.h; sourceTree = "<group>"; };
+		407904521B55F98300B67B9E /* MURegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MURegisterViewController.m; sourceTree = "<group>"; };
+		407904531B55F98300B67B9E /* MURegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MURegisterViewController.xib; sourceTree = "<group>"; };
+		407904561B56091300B67B9E /* MUForgetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUForgetPwdViewController.h; sourceTree = "<group>"; };
+		407904571B56091300B67B9E /* MUForgetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUForgetPwdViewController.m; sourceTree = "<group>"; };
+		407904581B56091300B67B9E /* MUForgetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUForgetPwdViewController.xib; sourceTree = "<group>"; };
+		407904651B56496D00B67B9E /* MUAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAboutUsViewController.h; sourceTree = "<group>"; };
+		407904661B56496D00B67B9E /* MUAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAboutUsViewController.m; sourceTree = "<group>"; };
+		407904671B56496D00B67B9E /* MUAboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUAboutUsViewController.xib; sourceTree = "<group>"; };
+		40E947421B4FAFF300137CDD /* MUGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGoodsCell.h; sourceTree = "<group>"; };
+		40E947431B4FAFF300137CDD /* MUGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGoodsCell.m; sourceTree = "<group>"; };
+		40E947441B4FAFF300137CDD /* MUGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUGoodsCell.xib; sourceTree = "<group>"; };
+		40E947471B4FB40A00137CDD /* MUZChouCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZChouCell.h; sourceTree = "<group>"; };
+		40E947481B4FB40A00137CDD /* MUZChouCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZChouCell.m; sourceTree = "<group>"; };
+		40E947491B4FB40A00137CDD /* MUZChouCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUZChouCell.xib; sourceTree = "<group>"; };
+		40E9474C1B4FB86100137CDD /* MUManorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorCell.h; sourceTree = "<group>"; };
+		40E9474D1B4FB86100137CDD /* MUManorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorCell.m; sourceTree = "<group>"; };
+		40E9474E1B4FB86100137CDD /* MUManorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorCell.xib; sourceTree = "<group>"; };
+		40EA597F1B5895CA00B81FE8 /* MUFarmApplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmApplyTableViewCell.h; sourceTree = "<group>"; };
+		40EA59801B5895CA00B81FE8 /* MUFarmApplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmApplyTableViewCell.m; sourceTree = "<group>"; };
+		40EA59811B5895CA00B81FE8 /* MUFarmApplyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmApplyTableViewCell.xib; sourceTree = "<group>"; };
+		40EA59821B5895CA00B81FE8 /* MUFarmTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmTypeTableViewCell.h; sourceTree = "<group>"; };
+		40EA59831B5895CA00B81FE8 /* MUFarmTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmTypeTableViewCell.m; sourceTree = "<group>"; };
+		40EA59841B5895CA00B81FE8 /* MUFarmTypeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmTypeTableViewCell.xib; sourceTree = "<group>"; };
+		40EA59851B5895CA00B81FE8 /* MUFDetailHeadImgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFDetailHeadImgCell.h; sourceTree = "<group>"; };
+		40EA59861B5895CA00B81FE8 /* MUFDetailHeadImgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFDetailHeadImgCell.m; sourceTree = "<group>"; };
+		40EA59871B5895CA00B81FE8 /* MUFDetailHeadImgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFDetailHeadImgCell.xib; sourceTree = "<group>"; };
+		40EA59891B5895CA00B81FE8 /* MUFOrderAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderAddressCell.h; sourceTree = "<group>"; };
+		40EA598A1B5895CA00B81FE8 /* MUFOrderAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderAddressCell.m; sourceTree = "<group>"; };
+		40EA598B1B5895CA00B81FE8 /* MUFOrderAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderAddressCell.xib; sourceTree = "<group>"; };
+		40EA598C1B5895CA00B81FE8 /* MUFOrderCommonCouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderCommonCouponCell.h; sourceTree = "<group>"; };
+		40EA598D1B5895CA00B81FE8 /* MUFOrderCommonCouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderCommonCouponCell.m; sourceTree = "<group>"; };
+		40EA598E1B5895CA00B81FE8 /* MUFOrderCouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderCouponCell.h; sourceTree = "<group>"; };
+		40EA598F1B5895CA00B81FE8 /* MUFOrderCouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderCouponCell.m; sourceTree = "<group>"; };
+		40EA59901B5895CA00B81FE8 /* MUFOrderCouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderCouponCell.xib; sourceTree = "<group>"; };
+		40EA59911B5895CA00B81FE8 /* MUFOrderCouponHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderCouponHeadCell.h; sourceTree = "<group>"; };
+		40EA59921B5895CA00B81FE8 /* MUFOrderCouponHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderCouponHeadCell.m; sourceTree = "<group>"; };
+		40EA59931B5895CA00B81FE8 /* MUFOrderCouponHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderCouponHeadCell.xib; sourceTree = "<group>"; };
+		40EA59941B5895CA00B81FE8 /* MUFOrderCouponNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderCouponNoteCell.h; sourceTree = "<group>"; };
+		40EA59951B5895CA00B81FE8 /* MUFOrderCouponNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderCouponNoteCell.m; sourceTree = "<group>"; };
+		40EA59961B5895CA00B81FE8 /* MUFOrderCouponNoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderCouponNoteCell.xib; sourceTree = "<group>"; };
+		40EA59971B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderDeliverFeeCell.h; sourceTree = "<group>"; };
+		40EA59981B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderDeliverFeeCell.m; sourceTree = "<group>"; };
+		40EA59991B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderDeliverFeeCell.xib; sourceTree = "<group>"; };
+		40EA599A1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderDeliverNoteCell.h; sourceTree = "<group>"; };
+		40EA599B1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderDeliverNoteCell.m; sourceTree = "<group>"; };
+		40EA599C1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderDeliverNoteCell.xib; sourceTree = "<group>"; };
+		40EA599D1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderGoodsContentCell.h; sourceTree = "<group>"; };
+		40EA599E1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderGoodsContentCell.m; sourceTree = "<group>"; };
+		40EA599F1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderGoodsContentCell.xib; sourceTree = "<group>"; };
+		40EA59A01B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderGoodsHeadCell.h; sourceTree = "<group>"; };
+		40EA59A11B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderGoodsHeadCell.m; sourceTree = "<group>"; };
+		40EA59A21B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderGoodsHeadCell.xib; sourceTree = "<group>"; };
+		40EA59A31B5895CA00B81FE8 /* MUFOrderSumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFOrderSumCell.h; sourceTree = "<group>"; };
+		40EA59A41B5895CA00B81FE8 /* MUFOrderSumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFOrderSumCell.m; sourceTree = "<group>"; };
+		40EA59A51B5895CA00B81FE8 /* MUFOrderSumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFOrderSumCell.xib; sourceTree = "<group>"; };
+		40EA59A71B5895CB00B81FE8 /* MUFDetailCommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFDetailCommentsCell.h; sourceTree = "<group>"; };
+		40EA59A81B5895CB00B81FE8 /* MUFDetailCommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFDetailCommentsCell.m; sourceTree = "<group>"; };
+		40EA59A91B5895CB00B81FE8 /* MUFDetailContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFDetailContentCell.h; sourceTree = "<group>"; };
+		40EA59AA1B5895CB00B81FE8 /* MUFDetailContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFDetailContentCell.m; sourceTree = "<group>"; };
+		40EA59AB1B5895CB00B81FE8 /* MUFDetailContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFDetailContentCell.xib; sourceTree = "<group>"; };
+		40EA59AC1B5895CB00B81FE8 /* MUFDetailManorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFDetailManorCell.h; sourceTree = "<group>"; };
+		40EA59AD1B5895CB00B81FE8 /* MUFDetailManorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFDetailManorCell.m; sourceTree = "<group>"; };
+		40EA59AE1B5895CB00B81FE8 /* MUFDetailManorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFDetailManorCell.xib; sourceTree = "<group>"; };
+		40EA59B01B5895CB00B81FE8 /* MUManorTourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorTourCell.h; sourceTree = "<group>"; };
+		40EA59B11B5895CB00B81FE8 /* MUManorTourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorTourCell.m; sourceTree = "<group>"; };
+		40EA59B21B5895CB00B81FE8 /* MUManorTourCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorTourCell.xib; sourceTree = "<group>"; };
+		40EA59B31B5895CB00B81FE8 /* MUManorTourHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorTourHeadCell.h; sourceTree = "<group>"; };
+		40EA59B41B5895CB00B81FE8 /* MUManorTourHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorTourHeadCell.m; sourceTree = "<group>"; };
+		40EA59B51B5895CB00B81FE8 /* MUManorTourHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorTourHeadCell.xib; sourceTree = "<group>"; };
+		40EA59B61B5895CB00B81FE8 /* MUManorTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorTypeTableViewCell.h; sourceTree = "<group>"; };
+		40EA59B71B5895CB00B81FE8 /* MUManorTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorTypeTableViewCell.m; sourceTree = "<group>"; };
+		40EA59B81B5895CB00B81FE8 /* MUManorTypeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorTypeTableViewCell.xib; sourceTree = "<group>"; };
+		40EA59BA1B5895CB00B81FE8 /* MUMDetailHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMDetailHeadCell.h; sourceTree = "<group>"; };
+		40EA59BB1B5895CB00B81FE8 /* MUMDetailHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMDetailHeadCell.m; sourceTree = "<group>"; };
+		40EA59BC1B5895CB00B81FE8 /* MUMDetailHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMDetailHeadCell.xib; sourceTree = "<group>"; };
+		40EA59BD1B5895CB00B81FE8 /* MUMDetailTourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMDetailTourCell.h; sourceTree = "<group>"; };
+		40EA59BE1B5895CB00B81FE8 /* MUMDetailTourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMDetailTourCell.m; sourceTree = "<group>"; };
+		40EA59BF1B5895CB00B81FE8 /* MUMDetailTourCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMDetailTourCell.xib; sourceTree = "<group>"; };
+		40EA59C01B5895CB00B81FE8 /* MUMDetailTourHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMDetailTourHeadCell.h; sourceTree = "<group>"; };
+		40EA59C11B5895CB00B81FE8 /* MUMDetailTourHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMDetailTourHeadCell.m; sourceTree = "<group>"; };
+		40EA59C21B5895CB00B81FE8 /* MUMDetailTourHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMDetailTourHeadCell.xib; sourceTree = "<group>"; };
+		40EA59C41B5895CB00B81FE8 /* MUTDetailContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTDetailContentCell.h; sourceTree = "<group>"; };
+		40EA59C51B5895CB00B81FE8 /* MUTDetailContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTDetailContentCell.m; sourceTree = "<group>"; };
+		40EA59C61B5895CB00B81FE8 /* MUTDetailContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUTDetailContentCell.xib; sourceTree = "<group>"; };
+		40EA59F41B5895F700B81FE8 /* MUActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUActivityCell.h; sourceTree = "<group>"; };
+		40EA59F51B5895F700B81FE8 /* MUActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUActivityCell.m; sourceTree = "<group>"; };
+		40EA59F61B5895F700B81FE8 /* MUActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUActivityCell.xib; sourceTree = "<group>"; };
+		40EA59F91B58A13500B81FE8 /* MUSecKillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSecKillViewController.h; sourceTree = "<group>"; };
+		40EA59FA1B58A13500B81FE8 /* MUSecKillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSecKillViewController.m; sourceTree = "<group>"; };
+		40EA59FB1B58A13500B81FE8 /* MUSecKillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUSecKillViewController.xib; sourceTree = "<group>"; };
+		40EA59FF1B58A23700B81FE8 /* MUSecKillHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSecKillHeadCell.h; sourceTree = "<group>"; };
+		40EA5A001B58A23700B81FE8 /* MUSecKillHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSecKillHeadCell.m; sourceTree = "<group>"; };
+		40EA5A011B58A23700B81FE8 /* MUSecKillHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUSecKillHeadCell.xib; sourceTree = "<group>"; };
+		40EA5A041B58ABB200B81FE8 /* MUSecKillContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSecKillContentCell.h; sourceTree = "<group>"; };
+		40EA5A051B58ABB300B81FE8 /* MUSecKillContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSecKillContentCell.m; sourceTree = "<group>"; };
+		40EA5A061B58ABB300B81FE8 /* MUSecKillContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUSecKillContentCell.xib; sourceTree = "<group>"; };
+		40F5FACD1B57A80C005E5BF4 /* MUActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUActivityViewController.h; sourceTree = "<group>"; };
+		40F5FACE1B57A80C005E5BF4 /* MUActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUActivityViewController.m; sourceTree = "<group>"; };
+		40F5FACF1B57A80C005E5BF4 /* MUActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUActivityViewController.xib; sourceTree = "<group>"; };
+		40F972161B4A552D00F7AE09 /* MUOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderDetailViewController.h; sourceTree = "<group>"; };
+		40F972171B4A552D00F7AE09 /* MUOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderDetailViewController.m; sourceTree = "<group>"; };
+		40F972181B4A552D00F7AE09 /* MUOrderDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderDetailViewController.xib; sourceTree = "<group>"; };
+		40F9721C1B4A587800F7AE09 /* MUOrderDetailHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderDetailHeadCell.h; sourceTree = "<group>"; };
+		40F9721D1B4A587800F7AE09 /* MUOrderDetailHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderDetailHeadCell.m; sourceTree = "<group>"; };
+		40F9721E1B4A587800F7AE09 /* MUOrderDetailHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderDetailHeadCell.xib; sourceTree = "<group>"; };
+		40F972211B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderDetailBottomCell.h; sourceTree = "<group>"; };
+		40F972221B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderDetailBottomCell.m; sourceTree = "<group>"; };
+		40F972231B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderDetailBottomCell.xib; sourceTree = "<group>"; };
+		40F972261B4A6A0900F7AE09 /* MUOrderDetailAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderDetailAddressCell.h; sourceTree = "<group>"; };
+		40F972271B4A6A0900F7AE09 /* MUOrderDetailAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderDetailAddressCell.m; sourceTree = "<group>"; };
+		40F972281B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderDetailAddressCell.xib; sourceTree = "<group>"; };
+		40F9722B1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderDetailCodeCell.h; sourceTree = "<group>"; };
+		40F9722C1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderDetailCodeCell.m; sourceTree = "<group>"; };
+		40F9722D1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderDetailCodeCell.xib; sourceTree = "<group>"; };
+		8D3850171B15B97C007D0B2A /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		8D3850181B15B97C007D0B2A /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		8D3AE3B41B1440FE00D35EED /* manor_User_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manor_User_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3AE3B81B1440FE00D35EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3AE3B91B1440FE00D35EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D3AE3BB1B1440FE00D35EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D3AE3BC1B1440FE00D35EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D3AE3C41B1440FE00D35EED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D3AE3C71B1440FF00D35EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8D3AE3D21B1440FF00D35EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3AE3D31B1440FF00D35EED /* manor_User_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = manor_User_iosTests.m; sourceTree = "<group>"; };
+		8D3AE3E41B14464E00D35EED /* MUHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHomePageViewController.h; sourceTree = "<group>"; };
+		8D3AE3E51B14464E00D35EED /* MUHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHomePageViewController.m; sourceTree = "<group>"; };
+		8D3AE3E61B14464E00D35EED /* MUHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUHomePageViewController.xib; sourceTree = "<group>"; };
+		8D3AE3E91B14466E00D35EED /* MUMyManorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyManorViewController.h; sourceTree = "<group>"; };
+		8D3AE3EA1B14466E00D35EED /* MUMyManorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyManorViewController.m; sourceTree = "<group>"; };
+		8D3AE3EB1B14466E00D35EED /* MUMyManorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyManorViewController.xib; sourceTree = "<group>"; };
+		8D3AE3EE1B14468500D35EED /* MUShopCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUShopCartViewController.h; sourceTree = "<group>"; };
+		8D3AE3EF1B14468500D35EED /* MUShopCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUShopCartViewController.m; sourceTree = "<group>"; };
+		8D3AE3F01B14468500D35EED /* MUShopCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUShopCartViewController.xib; sourceTree = "<group>"; };
+		8D3AE3F31B14469800D35EED /* MUCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCategoryViewController.h; sourceTree = "<group>"; };
+		8D3AE3F41B14469800D35EED /* MUCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCategoryViewController.m; sourceTree = "<group>"; };
+		8D3AE3F51B14469800D35EED /* MUCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCategoryViewController.xib; sourceTree = "<group>"; };
+		8D3AE3FB1B14474200D35EED /* EScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EScrollerView.h; sourceTree = "<group>"; };
+		8D3AE3FC1B14474200D35EED /* EScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EScrollerView.m; sourceTree = "<group>"; };
+		8D3AE3FD1B14474200D35EED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8D3AE3FE1B14474200D35EED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8D3AE4041B14485600D35EED /* MUTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTabBarViewController.h; sourceTree = "<group>"; };
+		8D3AE4051B14485600D35EED /* MUTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTabBarViewController.m; sourceTree = "<group>"; };
+		8D3AE4071B146B0100D35EED /* manor_User_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "manor_User_ios-Prefix.pch"; sourceTree = "<group>"; };
+		8D4140631B3CF826003A6EE6 /* MUEditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUEditInfoViewController.h; sourceTree = "<group>"; };
+		8D4140641B3CF826003A6EE6 /* MUEditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUEditInfoViewController.m; sourceTree = "<group>"; };
+		8D4140651B3CF826003A6EE6 /* MUEditInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUEditInfoViewController.xib; sourceTree = "<group>"; };
+		8D4222DD1B41463200B229B7 /* MUCouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCouponViewController.h; sourceTree = "<group>"; };
+		8D4222DE1B41463200B229B7 /* MUCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCouponViewController.m; sourceTree = "<group>"; };
+		8D4222DF1B41463200B229B7 /* MUCouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCouponViewController.xib; sourceTree = "<group>"; };
+		8D4277D21B422D9D0046D5E0 /* MUCouponTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCouponTableViewCell.h; sourceTree = "<group>"; };
+		8D4277D31B422D9D0046D5E0 /* MUCouponTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCouponTableViewCell.m; sourceTree = "<group>"; };
+		8D4277D41B422D9D0046D5E0 /* MUCouponTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCouponTableViewCell.xib; sourceTree = "<group>"; };
+		8D4277D91B422EC40046D5E0 /* MUMyOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyOrderListViewController.h; sourceTree = "<group>"; };
+		8D4277DA1B422EC40046D5E0 /* MUMyOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyOrderListViewController.m; sourceTree = "<group>"; };
+		8D4277DB1B422EC40046D5E0 /* MUMyOrderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyOrderListViewController.xib; sourceTree = "<group>"; };
+		8D4277DE1B4236890046D5E0 /* MUOrderHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderHeadCell.h; sourceTree = "<group>"; };
+		8D4277DF1B4236890046D5E0 /* MUOrderHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderHeadCell.m; sourceTree = "<group>"; };
+		8D4277E01B4236890046D5E0 /* MUOrderHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderHeadCell.xib; sourceTree = "<group>"; };
+		8D4277E31B423A080046D5E0 /* MUOrderContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderContentCell.h; sourceTree = "<group>"; };
+		8D4277E41B423A080046D5E0 /* MUOrderContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderContentCell.m; sourceTree = "<group>"; };
+		8D4277E51B423A080046D5E0 /* MUOrderContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderContentCell.xib; sourceTree = "<group>"; };
+		8D4277E81B4246200046D5E0 /* MUOrderPayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderPayCell.h; sourceTree = "<group>"; };
+		8D4277E91B4246200046D5E0 /* MUOrderPayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderPayCell.m; sourceTree = "<group>"; };
+		8D4277EA1B4246200046D5E0 /* MUOrderPayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderPayCell.xib; sourceTree = "<group>"; };
+		8D4277ED1B42491D0046D5E0 /* MUOrderBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderBottomCell.h; sourceTree = "<group>"; };
+		8D4277EE1B42491D0046D5E0 /* MUOrderBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderBottomCell.m; sourceTree = "<group>"; };
+		8D4277EF1B42491D0046D5E0 /* MUOrderBottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderBottomCell.xib; sourceTree = "<group>"; };
+		8D4277F21B424CEC0046D5E0 /* MUOrderMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUOrderMoreCell.h; sourceTree = "<group>"; };
+		8D4277F31B424CEC0046D5E0 /* MUOrderMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUOrderMoreCell.m; sourceTree = "<group>"; };
+		8D4277F41B424CEC0046D5E0 /* MUOrderMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUOrderMoreCell.xib; sourceTree = "<group>"; };
+		8D4277F81B4293970046D5E0 /* MUPublicCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPublicCommentsViewController.h; sourceTree = "<group>"; };
+		8D4277F91B4293970046D5E0 /* MUPublicCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPublicCommentsViewController.m; sourceTree = "<group>"; };
+		8D4277FA1B4293970046D5E0 /* MUPublicCommentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUPublicCommentsViewController.xib; sourceTree = "<group>"; };
+		8D4277FE1B4295010046D5E0 /* MUMyCommentsGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyCommentsGoodsCell.h; sourceTree = "<group>"; };
+		8D4277FF1B4295010046D5E0 /* MUMyCommentsGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyCommentsGoodsCell.m; sourceTree = "<group>"; };
+		8D4278001B4295010046D5E0 /* MUMyCommentsGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyCommentsGoodsCell.xib; sourceTree = "<group>"; };
+		8D4278031B42951D0046D5E0 /* MUMyCommentsNotesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMyCommentsNotesCell.h; sourceTree = "<group>"; };
+		8D4278041B42951D0046D5E0 /* MUMyCommentsNotesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMyCommentsNotesCell.m; sourceTree = "<group>"; };
+		8D4278051B42951D0046D5E0 /* MUMyCommentsNotesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMyCommentsNotesCell.xib; sourceTree = "<group>"; };
+		8D44840B1B2974520018EAFF /* MUFarmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmOrderViewController.h; sourceTree = "<group>"; };
+		8D44840C1B2974520018EAFF /* MUFarmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmOrderViewController.m; sourceTree = "<group>"; };
+		8D44840D1B2974520018EAFF /* MUFarmOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmOrderViewController.xib; sourceTree = "<group>"; };
+		8D45C5021B2FC50900B8552F /* MUManorTourDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorTourDetailViewController.h; sourceTree = "<group>"; };
+		8D45C5031B2FC50900B8552F /* MUManorTourDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorTourDetailViewController.m; sourceTree = "<group>"; };
+		8D45C5041B2FC50900B8552F /* MUManorTourDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorTourDetailViewController.xib; sourceTree = "<group>"; };
+		8D4701CA1B32526500901232 /* MUTourListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTourListViewController.h; sourceTree = "<group>"; };
+		8D4701CB1B32526500901232 /* MUTourListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTourListViewController.m; sourceTree = "<group>"; };
+		8D4701CC1B32526500901232 /* MUTourListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUTourListViewController.xib; sourceTree = "<group>"; };
+		8D4701CF1B325EF400901232 /* MUTourOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTourOrderViewController.h; sourceTree = "<group>"; };
+		8D4701D01B325EF400901232 /* MUTourOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTourOrderViewController.m; sourceTree = "<group>"; };
+		8D4701D11B325EF400901232 /* MUTourOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUTourOrderViewController.xib; sourceTree = "<group>"; };
+		8D4701D51B3269BC00901232 /* MUCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCommentViewController.h; sourceTree = "<group>"; };
+		8D4701D61B3269BC00901232 /* MUCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCommentViewController.m; sourceTree = "<group>"; };
+		8D4701D71B3269BC00901232 /* MUCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUCommentViewController.xib; sourceTree = "<group>"; };
+		8D51F9EB1B25250C00B6F13E /* MUFarmApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmApplyViewController.h; sourceTree = "<group>"; };
+		8D51F9EC1B25250C00B6F13E /* MUFarmApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmApplyViewController.m; sourceTree = "<group>"; };
+		8D51F9ED1B25250C00B6F13E /* MUFarmApplyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmApplyViewController.xib; sourceTree = "<group>"; };
+		8D51F9F71B25336B00B6F13E /* MUScrollViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUScrollViewTableViewCell.h; sourceTree = "<group>"; };
+		8D51F9F81B25336B00B6F13E /* MUScrollViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUScrollViewTableViewCell.m; sourceTree = "<group>"; };
+		8D64D64F1B2EC4D900A6A017 /* MUManorTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUManorTourViewController.h; sourceTree = "<group>"; };
+		8D64D6501B2EC4D900A6A017 /* MUManorTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUManorTourViewController.m; sourceTree = "<group>"; };
+		8D64D6511B2EC4D900A6A017 /* MUManorTourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUManorTourViewController.xib; sourceTree = "<group>"; };
+		8DF689CF1B2672FF00A9CC91 /* MUFarmDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmDetailViewController.h; sourceTree = "<group>"; };
+		8DF689D01B2672FF00A9CC91 /* MUFarmDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmDetailViewController.m; sourceTree = "<group>"; };
+		8DF689D11B2672FF00A9CC91 /* MUFarmDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmDetailViewController.xib; sourceTree = "<group>"; };
+		8DFC69DE1B311FD0008EA84B /* MUTourDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTourDetailViewController.h; sourceTree = "<group>"; };
+		8DFC69DF1B311FD0008EA84B /* MUTourDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTourDetailViewController.m; sourceTree = "<group>"; };
+		8DFC69E01B311FD0008EA84B /* MUTourDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUTourDetailViewController.xib; sourceTree = "<group>"; };
+		BF8D54B315254013A13EC663 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D3AE3B11B1440FE00D35EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A233B371E44F2EB3D3C4A9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401072651B620BEA005F6492 /* 会员社区 */ = {
+			isa = PBXGroup;
+			children = (
+				401072661B620C0C005F6492 /* MUMemberViewController.h */,
+				401072671B620C0C005F6492 /* MUMemberViewController.m */,
+				401072681B620C0C005F6492 /* MUMemberViewController.xib */,
+			);
+			path = "会员社区";
+			sourceTree = "<group>";
+		};
+		401072741B621188005F6492 /* 分类Cell */ = {
+			isa = PBXGroup;
+			children = (
+				401072751B621188005F6492 /* 会员 */,
+			);
+			path = "分类Cell";
+			sourceTree = "<group>";
+		};
+		401072751B621188005F6492 /* 会员 */ = {
+			isa = PBXGroup;
+			children = (
+				4010727B1B621F15005F6492 /* MUMemberHeadCell.h */,
+				4010727C1B621F15005F6492 /* MUMemberHeadCell.m */,
+				4010727D1B621F15005F6492 /* MUMemberHeadCell.xib */,
+				401072761B6211AB005F6492 /* MUMemberContentCell.h */,
+				401072771B6211AB005F6492 /* MUMemberContentCell.m */,
+				401072781B6211AB005F6492 /* MUMemberContentCell.xib */,
+			);
+			path = "会员";
+			sourceTree = "<group>";
+		};
+		4043506C1B58E6EA00EF6E1C /* 购物车Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4043506D1B58E72300EF6E1C /* MUCarHeadCell.h */,
+				4043506E1B58E72300EF6E1C /* MUCarHeadCell.m */,
+				4043506F1B58E72300EF6E1C /* MUCarHeadCell.xib */,
+				404350721B58E82200EF6E1C /* MUCarManorHeadCell.h */,
+				404350731B58E82200EF6E1C /* MUCarManorHeadCell.m */,
+				404350741B58E82200EF6E1C /* MUCarManorHeadCell.xib */,
+				404350771B58EA8900EF6E1C /* MUCarContentCell.h */,
+				404350781B58EA8900EF6E1C /* MUCarContentCell.m */,
+				404350791B58EA8900EF6E1C /* MUCarContentCell.xib */,
+				4043507C1B58F3A800EF6E1C /* MUCarBottomCell.h */,
+				4043507D1B58F3A900EF6E1C /* MUCarBottomCell.m */,
+				4043507E1B58F3A900EF6E1C /* MUCarBottomCell.xib */,
+			);
+			path = "购物车Cell";
+			sourceTree = "<group>";
+		};
+		40551B161B54E233003F70E6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				40551B171B54E253003F70E6 /* MULoginViewController.h */,
+				40551B181B54E253003F70E6 /* MULoginViewController.m */,
+				40551B191B54E253003F70E6 /* MULoginViewController.xib */,
+				407904511B55F98300B67B9E /* MURegisterViewController.h */,
+				407904521B55F98300B67B9E /* MURegisterViewController.m */,
+				407904531B55F98300B67B9E /* MURegisterViewController.xib */,
+				407904561B56091300B67B9E /* MUForgetPwdViewController.h */,
+				407904571B56091300B67B9E /* MUForgetPwdViewController.m */,
+				407904581B56091300B67B9E /* MUForgetPwdViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		405F31241B4FA24300C29E34 /* 我的关注 */ = {
+			isa = PBXGroup;
+			children = (
+				405F31251B4FA27C00C29E34 /* MUMyCareViewController.h */,
+				405F31261B4FA27C00C29E34 /* MUMyCareViewController.m */,
+				405F31271B4FA27C00C29E34 /* MUMyCareViewController.xib */,
+			);
+			path = "我的关注";
+			sourceTree = "<group>";
+		};
+		405F312A1B4FA8D300C29E34 /* 攻略Cell */ = {
+			isa = PBXGroup;
+			children = (
+				405F312B1B4FA92300C29E34 /* MUStrategyCell.h */,
+				405F312C1B4FA92400C29E34 /* MUStrategyCell.m */,
+				405F312D1B4FA92400C29E34 /* MUStrategyCell.xib */,
+				40E947421B4FAFF300137CDD /* MUGoodsCell.h */,
+				40E947431B4FAFF300137CDD /* MUGoodsCell.m */,
+				40E947441B4FAFF300137CDD /* MUGoodsCell.xib */,
+				40E947471B4FB40A00137CDD /* MUZChouCell.h */,
+				40E947481B4FB40A00137CDD /* MUZChouCell.m */,
+				40E947491B4FB40A00137CDD /* MUZChouCell.xib */,
+				40E9474C1B4FB86100137CDD /* MUManorCell.h */,
+				40E9474D1B4FB86100137CDD /* MUManorCell.m */,
+				40E9474E1B4FB86100137CDD /* MUManorCell.xib */,
+			);
+			path = "攻略Cell";
+			sourceTree = "<group>";
+		};
+		406458951B5363B200AD48A8 /* 我的游记 */ = {
+			isa = PBXGroup;
+			children = (
+				406458961B5363E500AD48A8 /* MUMyTourViewController.h */,
+				406458971B5363E500AD48A8 /* MUMyTourViewController.m */,
+				406458981B5363E500AD48A8 /* MUMyTourViewController.xib */,
+			);
+			path = "我的游记";
+			sourceTree = "<group>";
+		};
+		4064589B1B53B07200AD48A8 /* 我的收货地址 */ = {
+			isa = PBXGroup;
+			children = (
+				4064589C1B53B0D000AD48A8 /* MUMyAddressViewController.h */,
+				4064589D1B53B0D000AD48A8 /* MUMyAddressViewController.m */,
+				4064589E1B53B0D000AD48A8 /* MUMyAddressViewController.xib */,
+				406458A71B53C17B00AD48A8 /* MUNewAddressViewController.h */,
+				406458A81B53C17B00AD48A8 /* MUNewAddressViewController.m */,
+				406458A91B53C17B00AD48A8 /* MUNewAddressViewController.xib */,
+				40551B111B54BE03003F70E6 /* MUManageDetailViewController.h */,
+				40551B121B54BE03003F70E6 /* MUManageDetailViewController.m */,
+				40551B131B54BE03003F70E6 /* MUManageDetailViewController.xib */,
+			);
+			path = "我的收货地址";
+			sourceTree = "<group>";
+		};
+		406458A11B53B2E200AD48A8 /* 我的地址Cell */ = {
+			isa = PBXGroup;
+			children = (
+				406458A21B53B30B00AD48A8 /* MUManageAddressCell.h */,
+				406458A31B53B30B00AD48A8 /* MUManageAddressCell.m */,
+				406458A41B53B30B00AD48A8 /* MUManageAddressCell.xib */,
+			);
+			path = "我的地址Cell";
+			sourceTree = "<group>";
+		};
+		40737C821B60C7080020E8CA /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				40737C831B60C7080020E8CA /* MUSeachViewController.h */,
+				40737C841B60C7080020E8CA /* MUSeachViewController.m */,
+				40737C851B60C7090020E8CA /* MUSeachViewController.xib */,
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		407904641B56496D00B67B9E /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				407904651B56496D00B67B9E /* MUAboutUsViewController.h */,
+				407904661B56496D00B67B9E /* MUAboutUsViewController.m */,
+				407904671B56496D00B67B9E /* MUAboutUsViewController.xib */,
+			);
+			path = "关于我们";
+			sourceTree = "<group>";
+		};
+		40EA597D1B5895CA00B81FE8 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59FE1B58A20500B81FE8 /* 秒杀Cell */,
+				40EA597E1B5895CA00B81FE8 /* 农场直供Cell */,
+				40EA59AF1B5895CB00B81FE8 /* 庄园旅游Cell */,
+				40EA59C71B5895CB00B81FE8 /* 热门活动Cell */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		40EA597E1B5895CA00B81FE8 /* 农场直供Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA597F1B5895CA00B81FE8 /* MUFarmApplyTableViewCell.h */,
+				40EA59801B5895CA00B81FE8 /* MUFarmApplyTableViewCell.m */,
+				40EA59811B5895CA00B81FE8 /* MUFarmApplyTableViewCell.xib */,
+				40EA59821B5895CA00B81FE8 /* MUFarmTypeTableViewCell.h */,
+				40EA59831B5895CA00B81FE8 /* MUFarmTypeTableViewCell.m */,
+				40EA59841B5895CA00B81FE8 /* MUFarmTypeTableViewCell.xib */,
+				40EA59851B5895CA00B81FE8 /* MUFDetailHeadImgCell.h */,
+				40EA59861B5895CA00B81FE8 /* MUFDetailHeadImgCell.m */,
+				40EA59871B5895CA00B81FE8 /* MUFDetailHeadImgCell.xib */,
+				40EA59881B5895CA00B81FE8 /* 农场订单Cell */,
+				40EA59A61B5895CA00B81FE8 /* 商品详情cell */,
+			);
+			path = "农场直供Cell";
+			sourceTree = "<group>";
+		};
+		40EA59881B5895CA00B81FE8 /* 农场订单Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59891B5895CA00B81FE8 /* MUFOrderAddressCell.h */,
+				40EA598A1B5895CA00B81FE8 /* MUFOrderAddressCell.m */,
+				40EA598B1B5895CA00B81FE8 /* MUFOrderAddressCell.xib */,
+				40EA598C1B5895CA00B81FE8 /* MUFOrderCommonCouponCell.h */,
+				40EA598D1B5895CA00B81FE8 /* MUFOrderCommonCouponCell.m */,
+				40EA598E1B5895CA00B81FE8 /* MUFOrderCouponCell.h */,
+				40EA598F1B5895CA00B81FE8 /* MUFOrderCouponCell.m */,
+				40EA59901B5895CA00B81FE8 /* MUFOrderCouponCell.xib */,
+				40EA59911B5895CA00B81FE8 /* MUFOrderCouponHeadCell.h */,
+				40EA59921B5895CA00B81FE8 /* MUFOrderCouponHeadCell.m */,
+				40EA59931B5895CA00B81FE8 /* MUFOrderCouponHeadCell.xib */,
+				40EA59941B5895CA00B81FE8 /* MUFOrderCouponNoteCell.h */,
+				40EA59951B5895CA00B81FE8 /* MUFOrderCouponNoteCell.m */,
+				40EA59961B5895CA00B81FE8 /* MUFOrderCouponNoteCell.xib */,
+				40EA59971B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.h */,
+				40EA59981B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.m */,
+				40EA59991B5895CA00B81FE8 /* MUFOrderDeliverFeeCell.xib */,
+				40EA599A1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.h */,
+				40EA599B1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.m */,
+				40EA599C1B5895CA00B81FE8 /* MUFOrderDeliverNoteCell.xib */,
+				40EA599D1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.h */,
+				40EA599E1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.m */,
+				40EA599F1B5895CA00B81FE8 /* MUFOrderGoodsContentCell.xib */,
+				40EA59A01B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.h */,
+				40EA59A11B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.m */,
+				40EA59A21B5895CA00B81FE8 /* MUFOrderGoodsHeadCell.xib */,
+				40EA59A31B5895CA00B81FE8 /* MUFOrderSumCell.h */,
+				40EA59A41B5895CA00B81FE8 /* MUFOrderSumCell.m */,
+				40EA59A51B5895CA00B81FE8 /* MUFOrderSumCell.xib */,
+			);
+			path = "农场订单Cell";
+			sourceTree = "<group>";
+		};
+		40EA59A61B5895CA00B81FE8 /* 商品详情cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59A71B5895CB00B81FE8 /* MUFDetailCommentsCell.h */,
+				40EA59A81B5895CB00B81FE8 /* MUFDetailCommentsCell.m */,
+				40EA59A91B5895CB00B81FE8 /* MUFDetailContentCell.h */,
+				40EA59AA1B5895CB00B81FE8 /* MUFDetailContentCell.m */,
+				40EA59AB1B5895CB00B81FE8 /* MUFDetailContentCell.xib */,
+				40EA59AC1B5895CB00B81FE8 /* MUFDetailManorCell.h */,
+				40EA59AD1B5895CB00B81FE8 /* MUFDetailManorCell.m */,
+				40EA59AE1B5895CB00B81FE8 /* MUFDetailManorCell.xib */,
+			);
+			path = "商品详情cell";
+			sourceTree = "<group>";
+		};
+		40EA59AF1B5895CB00B81FE8 /* 庄园旅游Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59B01B5895CB00B81FE8 /* MUManorTourCell.h */,
+				40EA59B11B5895CB00B81FE8 /* MUManorTourCell.m */,
+				40EA59B21B5895CB00B81FE8 /* MUManorTourCell.xib */,
+				40EA59B31B5895CB00B81FE8 /* MUManorTourHeadCell.h */,
+				40EA59B41B5895CB00B81FE8 /* MUManorTourHeadCell.m */,
+				40EA59B51B5895CB00B81FE8 /* MUManorTourHeadCell.xib */,
+				40EA59B61B5895CB00B81FE8 /* MUManorTypeTableViewCell.h */,
+				40EA59B71B5895CB00B81FE8 /* MUManorTypeTableViewCell.m */,
+				40EA59B81B5895CB00B81FE8 /* MUManorTypeTableViewCell.xib */,
+				40EA59B91B5895CB00B81FE8 /* 庄园详情Cell */,
+				40EA59C31B5895CB00B81FE8 /* 旅游详情Cell */,
+			);
+			path = "庄园旅游Cell";
+			sourceTree = "<group>";
+		};
+		40EA59B91B5895CB00B81FE8 /* 庄园详情Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59BA1B5895CB00B81FE8 /* MUMDetailHeadCell.h */,
+				40EA59BB1B5895CB00B81FE8 /* MUMDetailHeadCell.m */,
+				40EA59BC1B5895CB00B81FE8 /* MUMDetailHeadCell.xib */,
+				40EA59BD1B5895CB00B81FE8 /* MUMDetailTourCell.h */,
+				40EA59BE1B5895CB00B81FE8 /* MUMDetailTourCell.m */,
+				40EA59BF1B5895CB00B81FE8 /* MUMDetailTourCell.xib */,
+				40EA59C01B5895CB00B81FE8 /* MUMDetailTourHeadCell.h */,
+				40EA59C11B5895CB00B81FE8 /* MUMDetailTourHeadCell.m */,
+				40EA59C21B5895CB00B81FE8 /* MUMDetailTourHeadCell.xib */,
+			);
+			path = "庄园详情Cell";
+			sourceTree = "<group>";
+		};
+		40EA59C31B5895CB00B81FE8 /* 旅游详情Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59C41B5895CB00B81FE8 /* MUTDetailContentCell.h */,
+				40EA59C51B5895CB00B81FE8 /* MUTDetailContentCell.m */,
+				40EA59C61B5895CB00B81FE8 /* MUTDetailContentCell.xib */,
+			);
+			path = "旅游详情Cell";
+			sourceTree = "<group>";
+		};
+		40EA59C71B5895CB00B81FE8 /* 热门活动Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59F41B5895F700B81FE8 /* MUActivityCell.h */,
+				40EA59F51B5895F700B81FE8 /* MUActivityCell.m */,
+				40EA59F61B5895F700B81FE8 /* MUActivityCell.xib */,
+			);
+			path = "热门活动Cell";
+			sourceTree = "<group>";
+		};
+		40EA59FE1B58A20500B81FE8 /* 秒杀Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40EA59FF1B58A23700B81FE8 /* MUSecKillHeadCell.h */,
+				40EA5A001B58A23700B81FE8 /* MUSecKillHeadCell.m */,
+				40EA5A011B58A23700B81FE8 /* MUSecKillHeadCell.xib */,
+				40EA5A041B58ABB200B81FE8 /* MUSecKillContentCell.h */,
+				40EA5A051B58ABB300B81FE8 /* MUSecKillContentCell.m */,
+				40EA5A061B58ABB300B81FE8 /* MUSecKillContentCell.xib */,
+			);
+			path = "秒杀Cell";
+			sourceTree = "<group>";
+		};
+		40F5FACC1B57A7EB005E5BF4 /* 热门活动 */ = {
+			isa = PBXGroup;
+			children = (
+				40F5FACD1B57A80C005E5BF4 /* MUActivityViewController.h */,
+				40F5FACE1B57A80C005E5BF4 /* MUActivityViewController.m */,
+				40F5FACF1B57A80C005E5BF4 /* MUActivityViewController.xib */,
+				40EA59F91B58A13500B81FE8 /* MUSecKillViewController.h */,
+				40EA59FA1B58A13500B81FE8 /* MUSecKillViewController.m */,
+				40EA59FB1B58A13500B81FE8 /* MUSecKillViewController.xib */,
+			);
+			path = "热门活动";
+			sourceTree = "<group>";
+		};
+		40F9721B1B4A585300F7AE09 /* 订单详情Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40F9721C1B4A587800F7AE09 /* MUOrderDetailHeadCell.h */,
+				40F9721D1B4A587800F7AE09 /* MUOrderDetailHeadCell.m */,
+				40F9721E1B4A587800F7AE09 /* MUOrderDetailHeadCell.xib */,
+				40F972261B4A6A0900F7AE09 /* MUOrderDetailAddressCell.h */,
+				40F972271B4A6A0900F7AE09 /* MUOrderDetailAddressCell.m */,
+				40F972281B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib */,
+				40F9722B1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.h */,
+				40F9722C1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.m */,
+				40F9722D1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.xib */,
+				40F972211B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.h */,
+				40F972221B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.m */,
+				40F972231B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.xib */,
+			);
+			path = "订单详情Cell";
+			sourceTree = "<group>";
+		};
+		6A419412267C4F80B953B08E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D54B315254013A13EC663 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D3AE3AB1B1440FE00D35EED = {
+			isa = PBXGroup;
+			children = (
+				8D3AE4071B146B0100D35EED /* manor_User_ios-Prefix.pch */,
+				8D3AE3B61B1440FE00D35EED /* manor_User_ios */,
+				8D3AE3D01B1440FF00D35EED /* manor_User_iosTests */,
+				8D3AE3B51B1440FE00D35EED /* Products */,
+				0A163044895D4E12BD79A902 /* Pods.xcconfig */,
+				6A419412267C4F80B953B08E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3AE3B51B1440FE00D35EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3B41B1440FE00D35EED /* manor_User_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D3AE3B61B1440FE00D35EED /* manor_User_ios */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3DD1B14454200D35EED /* Componet */,
+				8D3AE3DE1B14454200D35EED /* General */,
+				8D3AE3DF1B14454200D35EED /* Section */,
+				8D3AE3BB1B1440FE00D35EED /* AppDelegate.h */,
+				8D3AE3BC1B1440FE00D35EED /* AppDelegate.m */,
+				8D3AE3C41B1440FE00D35EED /* Images.xcassets */,
+				8D3AE3C61B1440FF00D35EED /* LaunchScreen.xib */,
+				8D3AE3B71B1440FE00D35EED /* Supporting Files */,
+			);
+			path = manor_User_ios;
+			sourceTree = "<group>";
+		};
+		8D3AE3B71B1440FE00D35EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3B81B1440FE00D35EED /* Info.plist */,
+				8D3AE3B91B1440FE00D35EED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D3AE3D01B1440FF00D35EED /* manor_User_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3D31B1440FF00D35EED /* manor_User_iosTests.m */,
+				8D3AE3D11B1440FF00D35EED /* Supporting Files */,
+			);
+			path = manor_User_iosTests;
+			sourceTree = "<group>";
+		};
+		8D3AE3D11B1440FF00D35EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3D21B1440FF00D35EED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D3AE3DD1B14454200D35EED /* Componet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Componet;
+			sourceTree = "<group>";
+		};
+		8D3AE3DE1B14454200D35EED /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3F81B14470700D35EED /* Cells */,
+				8D3AE3F91B14470700D35EED /* Models */,
+				8D3AE3FA1B14470700D35EED /* Tools */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8D3AE3DF1B14454200D35EED /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3E11B14460900D35EED /* HomePage */,
+				8D3AE3E01B14460900D35EED /* Category */,
+				8D3AE3E31B14460900D35EED /* ShopCart */,
+				8D3AE3E21B14460900D35EED /* MyManor */,
+				40551B161B54E233003F70E6 /* Login */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		8D3AE3E01B14460900D35EED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				401072651B620BEA005F6492 /* 会员社区 */,
+				8D3AE3F31B14469800D35EED /* MUCategoryViewController.h */,
+				8D3AE3F41B14469800D35EED /* MUCategoryViewController.m */,
+				8D3AE3F51B14469800D35EED /* MUCategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8D3AE3E11B14460900D35EED /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				40737C821B60C7080020E8CA /* 搜索 */,
+				40F5FACC1B57A7EB005E5BF4 /* 热门活动 */,
+				8D4701D41B3269A700901232 /* 通用VC */,
+				8D51F9E91B2524DD00B6F13E /* 农场直供 */,
+				8D51F9EA1B2524DD00B6F13E /* 庄园旅游 */,
+				8D3AE3E41B14464E00D35EED /* MUHomePageViewController.h */,
+				8D3AE3E51B14464E00D35EED /* MUHomePageViewController.m */,
+				8D3AE3E61B14464E00D35EED /* MUHomePageViewController.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		8D3AE3E21B14460900D35EED /* MyManor */ = {
+			isa = PBXGroup;
+			children = (
+				407904641B56496D00B67B9E /* 关于我们 */,
+				4064589B1B53B07200AD48A8 /* 我的收货地址 */,
+				406458951B5363B200AD48A8 /* 我的游记 */,
+				405F31241B4FA24300C29E34 /* 我的关注 */,
+				8D4277F71B4293790046D5E0 /* 发表评价 */,
+				8D4277D81B422E980046D5E0 /* 我的订单 */,
+				8D41405E1B3CF7A4003A6EE6 /* 个人资料 */,
+				8D41405F1B3CF7A4003A6EE6 /* 优惠劵 */,
+				8D3AE3E91B14466E00D35EED /* MUMyManorViewController.h */,
+				8D3AE3EA1B14466E00D35EED /* MUMyManorViewController.m */,
+				8D3AE3EB1B14466E00D35EED /* MUMyManorViewController.xib */,
+			);
+			path = MyManor;
+			sourceTree = "<group>";
+		};
+		8D3AE3E31B14460900D35EED /* ShopCart */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE3EE1B14468500D35EED /* MUShopCartViewController.h */,
+				8D3AE3EF1B14468500D35EED /* MUShopCartViewController.m */,
+				8D3AE3F01B14468500D35EED /* MUShopCartViewController.xib */,
+			);
+			path = ShopCart;
+			sourceTree = "<group>";
+		};
+		8D3AE3F81B14470700D35EED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				401072741B621188005F6492 /* 分类Cell */,
+				4043506C1B58E6EA00EF6E1C /* 购物车Cell */,
+				40EA597D1B5895CA00B81FE8 /* 首页 */,
+				8D4277D01B422D850046D5E0 /* 我的庄园cell */,
+				8D51F9F61B25334900B6F13E /* 通用Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8D3AE3F91B14470700D35EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D3AE3FA1B14470700D35EED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AE4041B14485600D35EED /* MUTabBarViewController.h */,
+				8D3AE4051B14485600D35EED /* MUTabBarViewController.m */,
+				8D3850171B15B97C007D0B2A /* Tools.h */,
+				8D3850181B15B97C007D0B2A /* Tools.m */,
+				8D3AE3FB1B14474200D35EED /* EScrollerView.h */,
+				8D3AE3FC1B14474200D35EED /* EScrollerView.m */,
+				8D3AE3FD1B14474200D35EED /* MBProgressHUD.h */,
+				8D3AE3FE1B14474200D35EED /* MBProgressHUD.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8D41405E1B3CF7A4003A6EE6 /* 个人资料 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4140631B3CF826003A6EE6 /* MUEditInfoViewController.h */,
+				8D4140641B3CF826003A6EE6 /* MUEditInfoViewController.m */,
+				8D4140651B3CF826003A6EE6 /* MUEditInfoViewController.xib */,
+			);
+			path = "个人资料";
+			sourceTree = "<group>";
+		};
+		8D41405F1B3CF7A4003A6EE6 /* 优惠劵 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4222DD1B41463200B229B7 /* MUCouponViewController.h */,
+				8D4222DE1B41463200B229B7 /* MUCouponViewController.m */,
+				8D4222DF1B41463200B229B7 /* MUCouponViewController.xib */,
+			);
+			path = "优惠劵";
+			sourceTree = "<group>";
+		};
+		8D4277D01B422D850046D5E0 /* 我的庄园cell */ = {
+			isa = PBXGroup;
+			children = (
+				406458A11B53B2E200AD48A8 /* 我的地址Cell */,
+				405F312A1B4FA8D300C29E34 /* 攻略Cell */,
+				8D4277FD1B4294C60046D5E0 /* 我的评价Cell */,
+				8D4277D71B422DB40046D5E0 /* 我的订单Cell */,
+				8D4277D11B422D9D0046D5E0 /* 我的优惠劵Cell */,
+			);
+			path = "我的庄园cell";
+			sourceTree = "<group>";
+		};
+		8D4277D11B422D9D0046D5E0 /* 我的优惠劵Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D4277D21B422D9D0046D5E0 /* MUCouponTableViewCell.h */,
+				8D4277D31B422D9D0046D5E0 /* MUCouponTableViewCell.m */,
+				8D4277D41B422D9D0046D5E0 /* MUCouponTableViewCell.xib */,
+			);
+			path = "我的优惠劵Cell";
+			sourceTree = "<group>";
+		};
+		8D4277D71B422DB40046D5E0 /* 我的订单Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40F9721B1B4A585300F7AE09 /* 订单详情Cell */,
+				8D4277DE1B4236890046D5E0 /* MUOrderHeadCell.h */,
+				8D4277DF1B4236890046D5E0 /* MUOrderHeadCell.m */,
+				8D4277E01B4236890046D5E0 /* MUOrderHeadCell.xib */,
+				8D4277E31B423A080046D5E0 /* MUOrderContentCell.h */,
+				8D4277E41B423A080046D5E0 /* MUOrderContentCell.m */,
+				8D4277E51B423A080046D5E0 /* MUOrderContentCell.xib */,
+				8D4277F21B424CEC0046D5E0 /* MUOrderMoreCell.h */,
+				8D4277F31B424CEC0046D5E0 /* MUOrderMoreCell.m */,
+				8D4277F41B424CEC0046D5E0 /* MUOrderMoreCell.xib */,
+				8D4277E81B4246200046D5E0 /* MUOrderPayCell.h */,
+				8D4277E91B4246200046D5E0 /* MUOrderPayCell.m */,
+				8D4277EA1B4246200046D5E0 /* MUOrderPayCell.xib */,
+				8D4277ED1B42491D0046D5E0 /* MUOrderBottomCell.h */,
+				8D4277EE1B42491D0046D5E0 /* MUOrderBottomCell.m */,
+				8D4277EF1B42491D0046D5E0 /* MUOrderBottomCell.xib */,
+			);
+			path = "我的订单Cell";
+			sourceTree = "<group>";
+		};
+		8D4277D81B422E980046D5E0 /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4277D91B422EC40046D5E0 /* MUMyOrderListViewController.h */,
+				8D4277DA1B422EC40046D5E0 /* MUMyOrderListViewController.m */,
+				8D4277DB1B422EC40046D5E0 /* MUMyOrderListViewController.xib */,
+				40F972161B4A552D00F7AE09 /* MUOrderDetailViewController.h */,
+				40F972171B4A552D00F7AE09 /* MUOrderDetailViewController.m */,
+				40F972181B4A552D00F7AE09 /* MUOrderDetailViewController.xib */,
+			);
+			path = "我的订单";
+			sourceTree = "<group>";
+		};
+		8D4277F71B4293790046D5E0 /* 发表评价 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4277F81B4293970046D5E0 /* MUPublicCommentsViewController.h */,
+				8D4277F91B4293970046D5E0 /* MUPublicCommentsViewController.m */,
+				8D4277FA1B4293970046D5E0 /* MUPublicCommentsViewController.xib */,
+			);
+			path = "发表评价";
+			sourceTree = "<group>";
+		};
+		8D4277FD1B4294C60046D5E0 /* 我的评价Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D4277FE1B4295010046D5E0 /* MUMyCommentsGoodsCell.h */,
+				8D4277FF1B4295010046D5E0 /* MUMyCommentsGoodsCell.m */,
+				8D4278001B4295010046D5E0 /* MUMyCommentsGoodsCell.xib */,
+				8D4278031B42951D0046D5E0 /* MUMyCommentsNotesCell.h */,
+				8D4278041B42951D0046D5E0 /* MUMyCommentsNotesCell.m */,
+				8D4278051B42951D0046D5E0 /* MUMyCommentsNotesCell.xib */,
+			);
+			path = "我的评价Cell";
+			sourceTree = "<group>";
+		};
+		8D4701D41B3269A700901232 /* 通用VC */ = {
+			isa = PBXGroup;
+			children = (
+				8D4701D51B3269BC00901232 /* MUCommentViewController.h */,
+				8D4701D61B3269BC00901232 /* MUCommentViewController.m */,
+				8D4701D71B3269BC00901232 /* MUCommentViewController.xib */,
+			);
+			path = "通用VC";
+			sourceTree = "<group>";
+		};
+		8D51F9E91B2524DD00B6F13E /* 农场直供 */ = {
+			isa = PBXGroup;
+			children = (
+				8D51F9EB1B25250C00B6F13E /* MUFarmApplyViewController.h */,
+				8D51F9EC1B25250C00B6F13E /* MUFarmApplyViewController.m */,
+				8D51F9ED1B25250C00B6F13E /* MUFarmApplyViewController.xib */,
+				8DF689CF1B2672FF00A9CC91 /* MUFarmDetailViewController.h */,
+				8DF689D01B2672FF00A9CC91 /* MUFarmDetailViewController.m */,
+				8DF689D11B2672FF00A9CC91 /* MUFarmDetailViewController.xib */,
+				8D44840B1B2974520018EAFF /* MUFarmOrderViewController.h */,
+				8D44840C1B2974520018EAFF /* MUFarmOrderViewController.m */,
+				8D44840D1B2974520018EAFF /* MUFarmOrderViewController.xib */,
+			);
+			path = "农场直供";
+			sourceTree = "<group>";
+		};
+		8D51F9EA1B2524DD00B6F13E /* 庄园旅游 */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC69DD1B311F26008EA84B /* 旅游详情 */,
+				8D64D64F1B2EC4D900A6A017 /* MUManorTourViewController.h */,
+				8D64D6501B2EC4D900A6A017 /* MUManorTourViewController.m */,
+				8D64D6511B2EC4D900A6A017 /* MUManorTourViewController.xib */,
+				8D45C5021B2FC50900B8552F /* MUManorTourDetailViewController.h */,
+				8D45C5031B2FC50900B8552F /* MUManorTourDetailViewController.m */,
+				8D45C5041B2FC50900B8552F /* MUManorTourDetailViewController.xib */,
+			);
+			path = "庄园旅游";
+			sourceTree = "<group>";
+		};
+		8D51F9F61B25334900B6F13E /* 通用Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D51F9F71B25336B00B6F13E /* MUScrollViewTableViewCell.h */,
+				8D51F9F81B25336B00B6F13E /* MUScrollViewTableViewCell.m */,
+			);
+			path = "通用Cell";
+			sourceTree = "<group>";
+		};
+		8DFC69DD1B311F26008EA84B /* 旅游详情 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4701CA1B32526500901232 /* MUTourListViewController.h */,
+				8D4701CB1B32526500901232 /* MUTourListViewController.m */,
+				8D4701CC1B32526500901232 /* MUTourListViewController.xib */,
+				8DFC69DE1B311FD0008EA84B /* MUTourDetailViewController.h */,
+				8DFC69DF1B311FD0008EA84B /* MUTourDetailViewController.m */,
+				8DFC69E01B311FD0008EA84B /* MUTourDetailViewController.xib */,
+				8D4701CF1B325EF400901232 /* MUTourOrderViewController.h */,
+				8D4701D01B325EF400901232 /* MUTourOrderViewController.m */,
+				8D4701D11B325EF400901232 /* MUTourOrderViewController.xib */,
+			);
+			path = "旅游详情";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D3AE3B31B1440FE00D35EED /* manor_User_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3AE3D71B1440FF00D35EED /* Build configuration list for PBXNativeTarget "manor_User_ios" */;
+			buildPhases = (
+				6BB3023CB2EE4B109737A308 /* Check Pods Manifest.lock */,
+				8D3AE3B01B1440FE00D35EED /* Sources */,
+				8D3AE3B11B1440FE00D35EED /* Frameworks */,
+				8D3AE3B21B1440FE00D35EED /* Resources */,
+				74EC86A4D23C47DEAC1516C5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = manor_User_ios;
+			productName = manor_User_ios;
+			productReference = 8D3AE3B41B1440FE00D35EED /* manor_User_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D3AE3AC1B1440FE00D35EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LinQ_Mac;
+				TargetAttributes = {
+					8D3AE3B31B1440FE00D35EED = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7FYTDJ9ZLT;
+					};
+				};
+			};
+			buildConfigurationList = 8D3AE3AF1B1440FE00D35EED /* Build configuration list for PBXProject "manor_User_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3AE3AB1B1440FE00D35EED;
+			productRefGroup = 8D3AE3B51B1440FE00D35EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D3AE3B31B1440FE00D35EED /* manor_User_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D3AE3B21B1440FE00D35EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4277E71B423A080046D5E0 /* MUOrderContentCell.xib in Resources */,
+				4010727F1B621F15005F6492 /* MUMemberHeadCell.xib in Resources */,
+				8D4278071B42951D0046D5E0 /* MUMyCommentsNotesCell.xib in Resources */,
+				8D4277F11B42491D0046D5E0 /* MUOrderBottomCell.xib in Resources */,
+				4010727A1B6211AC005F6492 /* MUMemberContentCell.xib in Resources */,
+				40EA59E31B5895CB00B81FE8 /* MUFDetailContentCell.xib in Resources */,
+				40EA59D21B5895CB00B81FE8 /* MUFOrderCouponCell.xib in Resources */,
+				40EA59CF1B5895CB00B81FE8 /* MUFOrderAddressCell.xib in Resources */,
+				405F31291B4FA27D00C29E34 /* MUMyCareViewController.xib in Resources */,
+				40F9722A1B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib in Resources */,
+				404350761B58E82200EF6E1C /* MUCarManorHeadCell.xib in Resources */,
+				40EA59DC1B5895CB00B81FE8 /* MUFOrderGoodsContentCell.xib in Resources */,
+				8D51F9EF1B25250C00B6F13E /* MUFarmApplyViewController.xib in Resources */,
+				8D44840F1B2974520018EAFF /* MUFarmOrderViewController.xib in Resources */,
+				40EA59F11B5895CB00B81FE8 /* MUMDetailTourHeadCell.xib in Resources */,
+				8D3AE3ED1B14466E00D35EED /* MUMyManorViewController.xib in Resources */,
+				40EA5A081B58ABB300B81FE8 /* MUSecKillContentCell.xib in Resources */,
+				8D4701D31B325EF400901232 /* MUTourOrderViewController.xib in Resources */,
+				8D3AE3E81B14464E00D35EED /* MUHomePageViewController.xib in Resources */,
+				8D4277DD1B422EC40046D5E0 /* MUMyOrderListViewController.xib in Resources */,
+				40F972251B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.xib in Resources */,
+				40EA59F31B5895CB00B81FE8 /* MUTDetailContentCell.xib in Resources */,
+				8D4701D91B3269BC00901232 /* MUCommentViewController.xib in Resources */,
+				40EA59EB1B5895CB00B81FE8 /* MUManorTypeTableViewCell.xib in Resources */,
+				404350711B58E72400EF6E1C /* MUCarHeadCell.xib in Resources */,
+				40EA59E91B5895CB00B81FE8 /* MUManorTourHeadCell.xib in Resources */,
+				8D4278021B4295010046D5E0 /* MUMyCommentsGoodsCell.xib in Resources */,
+				404350801B58F3AC00EF6E1C /* MUCarBottomCell.xib in Resources */,
+				40EA59CB1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.xib in Resources */,
+				406458A61B53B30B00AD48A8 /* MUManageAddressCell.xib in Resources */,
+				40EA59E01B5895CB00B81FE8 /* MUFOrderSumCell.xib in Resources */,
+				4079045A1B56091300B67B9E /* MUForgetPwdViewController.xib in Resources */,
+				40737C871B60C7090020E8CA /* MUSeachViewController.xib in Resources */,
+				8D4701CE1B32526500901232 /* MUTourListViewController.xib in Resources */,
+				40EA59D81B5895CB00B81FE8 /* MUFOrderDeliverFeeCell.xib in Resources */,
+				40F5FAD11B57A80C005E5BF4 /* MUActivityViewController.xib in Resources */,
+				8D4140671B3CF826003A6EE6 /* MUEditInfoViewController.xib in Resources */,
+				40E947461B4FAFF300137CDD /* MUGoodsCell.xib in Resources */,
+				40EA59ED1B5895CB00B81FE8 /* MUMDetailHeadCell.xib in Resources */,
+				40EA5A031B58A23700B81FE8 /* MUSecKillHeadCell.xib in Resources */,
+				8DF689D31B2672FF00A9CC91 /* MUFarmDetailViewController.xib in Resources */,
+				40EA59DA1B5895CB00B81FE8 /* MUFOrderDeliverNoteCell.xib in Resources */,
+				4043507B1B58EA8900EF6E1C /* MUCarContentCell.xib in Resources */,
+				406458A01B53B0D000AD48A8 /* MUMyAddressViewController.xib in Resources */,
+				4010726A1B620C0C005F6492 /* MUMemberViewController.xib in Resources */,
+				8D4277EC1B4246200046D5E0 /* MUOrderPayCell.xib in Resources */,
+				8D3AE3F71B14469800D35EED /* MUCategoryViewController.xib in Resources */,
+				40EA59E51B5895CB00B81FE8 /* MUFDetailManorCell.xib in Resources */,
+				40EA59DE1B5895CB00B81FE8 /* MUFOrderGoodsHeadCell.xib in Resources */,
+				8D64D6531B2EC4D900A6A017 /* MUManorTourViewController.xib in Resources */,
+				40E9474B1B4FB40A00137CDD /* MUZChouCell.xib in Resources */,
+				40EA59D41B5895CB00B81FE8 /* MUFOrderCouponHeadCell.xib in Resources */,
+				40551B1B1B54E253003F70E6 /* MULoginViewController.xib in Resources */,
+				407904551B55F98300B67B9E /* MURegisterViewController.xib in Resources */,
+				8D4277F61B424CEC0046D5E0 /* MUOrderMoreCell.xib in Resources */,
+				40F9721A1B4A552D00F7AE09 /* MUOrderDetailViewController.xib in Resources */,
+				40EA59C91B5895CB00B81FE8 /* MUFarmApplyTableViewCell.xib in Resources */,
+				40EA59D61B5895CB00B81FE8 /* MUFOrderCouponNoteCell.xib in Resources */,
+				407904691B56496D00B67B9E /* MUAboutUsViewController.xib in Resources */,
+				8D3AE3C81B1440FF00D35EED /* LaunchScreen.xib in Resources */,
+				40EA59EF1B5895CB00B81FE8 /* MUMDetailTourCell.xib in Resources */,
+				8D4277E21B4236890046D5E0 /* MUOrderHeadCell.xib in Resources */,
+				40EA59F81B5895F700B81FE8 /* MUActivityCell.xib in Resources */,
+				4064589A1B5363E600AD48A8 /* MUMyTourViewController.xib in Resources */,
+				40551B151B54BE04003F70E6 /* MUManageDetailViewController.xib in Resources */,
+				40EA59CD1B5895CB00B81FE8 /* MUFDetailHeadImgCell.xib in Resources */,
+				40F9722F1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.xib in Resources */,
+				8D3AE3F21B14468500D35EED /* MUShopCartViewController.xib in Resources */,
+				8DFC69E21B311FD0008EA84B /* MUTourDetailViewController.xib in Resources */,
+				40F972201B4A587800F7AE09 /* MUOrderDetailHeadCell.xib in Resources */,
+				8D4222E11B41463200B229B7 /* MUCouponViewController.xib in Resources */,
+				8D4277FC1B4293970046D5E0 /* MUPublicCommentsViewController.xib in Resources */,
+				40EA59E71B5895CB00B81FE8 /* MUManorTourCell.xib in Resources */,
+				8D4277D61B422D9D0046D5E0 /* MUCouponTableViewCell.xib in Resources */,
+				8D3AE3C51B1440FE00D35EED /* Images.xcassets in Resources */,
+				406458AB1B53C17B00AD48A8 /* MUNewAddressViewController.xib in Resources */,
+				405F312F1B4FA92400C29E34 /* MUStrategyCell.xib in Resources */,
+				8D45C5061B2FC50900B8552F /* MUManorTourDetailViewController.xib in Resources */,
+				40EA59FD1B58A13600B81FE8 /* MUSecKillViewController.xib in Resources */,
+				40E947501B4FB86100137CDD /* MUManorCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB3023CB2EE4B109737A308 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74EC86A4D23C47DEAC1516C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3AE3B01B1440FE00D35EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA59FC1B58A13600B81FE8 /* MUSecKillViewController.m in Sources */,
+				8D4701CD1B32526500901232 /* MUTourListViewController.m in Sources */,
+				40EA59CA1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.m in Sources */,
+				40EA59EC1B5895CB00B81FE8 /* MUMDetailHeadCell.m in Sources */,
+				8DF689D21B2672FF00A9CC91 /* MUFarmDetailViewController.m in Sources */,
+				8D4277DC1B422EC40046D5E0 /* MUMyOrderListViewController.m in Sources */,
+				40EA59E61B5895CB00B81FE8 /* MUManorTourCell.m in Sources */,
+				401072791B6211AC005F6492 /* MUMemberContentCell.m in Sources */,
+				40EA59DD1B5895CB00B81FE8 /* MUFOrderGoodsHeadCell.m in Sources */,
+				8D4701D81B3269BC00901232 /* MUCommentViewController.m in Sources */,
+				40EA5A021B58A23700B81FE8 /* MUSecKillHeadCell.m in Sources */,
+				40F9722E1B4A6C4600F7AE09 /* MUOrderDetailCodeCell.m in Sources */,
+				405F31281B4FA27D00C29E34 /* MUMyCareViewController.m in Sources */,
+				40EA59DB1B5895CB00B81FE8 /* MUFOrderGoodsContentCell.m in Sources */,
+				8D3AE4061B14485600D35EED /* MUTabBarViewController.m in Sources */,
+				4043507A1B58EA8900EF6E1C /* MUCarContentCell.m in Sources */,
+				8D51F9F91B25336B00B6F13E /* MUScrollViewTableViewCell.m in Sources */,
+				8D4140661B3CF826003A6EE6 /* MUEditInfoViewController.m in Sources */,
+				40F972291B4A6A0900F7AE09 /* MUOrderDetailAddressCell.m in Sources */,
+				40551B141B54BE04003F70E6 /* MUManageDetailViewController.m in Sources */,
+				401072691B620C0C005F6492 /* MUMemberViewController.m in Sources */,
+				40EA59D71B5895CB00B81FE8 /* MUFOrderDeliverFeeCell.m in Sources */,
+				405F312E1B4FA92400C29E34 /* MUStrategyCell.m in Sources */,
+				8D4277E11B4236890046D5E0 /* MUOrderHeadCell.m in Sources */,
+				8D51F9EE1B25250C00B6F13E /* MUFarmApplyViewController.m in Sources */,
+				8D4277FB1B4293970046D5E0 /* MUPublicCommentsViewController.m in Sources */,
+				8D4277E61B423A080046D5E0 /* MUOrderContentCell.m in Sources */,
+				40EA59D11B5895CB00B81FE8 /* MUFOrderCouponCell.m in Sources */,
+				406458AA1B53C17B00AD48A8 /* MUNewAddressViewController.m in Sources */,
+				8D3850191B15B97C007D0B2A /* Tools.m in Sources */,
+				40551B1A1B54E253003F70E6 /* MULoginViewController.m in Sources */,
+				407904591B56091300B67B9E /* MUForgetPwdViewController.m in Sources */,
+				40E9474F1B4FB86100137CDD /* MUManorCell.m in Sources */,
+				8D4277D51B422D9D0046D5E0 /* MUCouponTableViewCell.m in Sources */,
+				8D3AE3EC1B14466E00D35EED /* MUMyManorViewController.m in Sources */,
+				40EA59E81B5895CB00B81FE8 /* MUManorTourHeadCell.m in Sources */,
+				4043507F1B58F3AB00EF6E1C /* MUCarBottomCell.m in Sources */,
+				8D3AE3BD1B1440FE00D35EED /* AppDelegate.m in Sources */,
+				8D4278011B4295010046D5E0 /* MUMyCommentsGoodsCell.m in Sources */,
+				40E947451B4FAFF300137CDD /* MUGoodsCell.m in Sources */,
+				8D4277EB1B4246200046D5E0 /* MUOrderPayCell.m in Sources */,
+				40EA59DF1B5895CB00B81FE8 /* MUFOrderSumCell.m in Sources */,
+				404350751B58E82200EF6E1C /* MUCarManorHeadCell.m in Sources */,
+				40F9721F1B4A587800F7AE09 /* MUOrderDetailHeadCell.m in Sources */,
+				8D64D6521B2EC4D900A6A017 /* MUManorTourViewController.m in Sources */,
+				40EA59F71B5895F700B81FE8 /* MUActivityCell.m in Sources */,
+				8D3AE3F61B14469800D35EED /* MUCategoryViewController.m in Sources */,
+				406458991B5363E600AD48A8 /* MUMyTourViewController.m in Sources */,
+				40EA59D51B5895CB00B81FE8 /* MUFOrderCouponNoteCell.m in Sources */,
+				40737C861B60C7090020E8CA /* MUSeachViewController.m in Sources */,
+				40F5FAD01B57A80C005E5BF4 /* MUActivityViewController.m in Sources */,
+				407904541B55F98300B67B9E /* MURegisterViewController.m in Sources */,
+				40EA59EA1B5895CB00B81FE8 /* MUManorTypeTableViewCell.m in Sources */,
+				8D4222E01B41463200B229B7 /* MUCouponViewController.m in Sources */,
+				407904681B56496D00B67B9E /* MUAboutUsViewController.m in Sources */,
+				8D3AE3E71B14464E00D35EED /* MUHomePageViewController.m in Sources */,
+				8D4277F51B424CEC0046D5E0 /* MUOrderMoreCell.m in Sources */,
+				406458A51B53B30B00AD48A8 /* MUManageAddressCell.m in Sources */,
+				40EA59D01B5895CB00B81FE8 /* MUFOrderCommonCouponCell.m in Sources */,
+				40EA59CC1B5895CB00B81FE8 /* MUFDetailHeadImgCell.m in Sources */,
+				40F972191B4A552D00F7AE09 /* MUOrderDetailViewController.m in Sources */,
+				4010727E1B621F15005F6492 /* MUMemberHeadCell.m in Sources */,
+				40EA59D31B5895CB00B81FE8 /* MUFOrderCouponHeadCell.m in Sources */,
+				4064589F1B53B0D000AD48A8 /* MUMyAddressViewController.m in Sources */,
+				40EA59CE1B5895CB00B81FE8 /* MUFOrderAddressCell.m in Sources */,
+				8D45C5051B2FC50900B8552F /* MUManorTourDetailViewController.m in Sources */,
+				40EA59F01B5895CB00B81FE8 /* MUMDetailTourHeadCell.m in Sources */,
+				8D44840E1B2974520018EAFF /* MUFarmOrderViewController.m in Sources */,
+				40EA59F21B5895CB00B81FE8 /* MUTDetailContentCell.m in Sources */,
+				40E9474A1B4FB40A00137CDD /* MUZChouCell.m in Sources */,
+				8D3AE4011B14474200D35EED /* EScrollerView.m in Sources */,
+				40EA59EE1B5895CB00B81FE8 /* MUMDetailTourCell.m in Sources */,
+				40EA5A071B58ABB300B81FE8 /* MUSecKillContentCell.m in Sources */,
+				8D4701D21B325EF400901232 /* MUTourOrderViewController.m in Sources */,
+				8D4277F01B42491D0046D5E0 /* MUOrderBottomCell.m in Sources */,
+				404350701B58E72400EF6E1C /* MUCarHeadCell.m in Sources */,
+				8D4278061B42951D0046D5E0 /* MUMyCommentsNotesCell.m in Sources */,
+				40EA59C81B5895CB00B81FE8 /* MUFarmApplyTableViewCell.m in Sources */,
+				8D3AE3F11B14468500D35EED /* MUShopCartViewController.m in Sources */,
+				8D3AE3BA1B1440FE00D35EED /* main.m in Sources */,
+				40EA59E21B5895CB00B81FE8 /* MUFDetailContentCell.m in Sources */,
+				40F972241B4A5BBF00F7AE09 /* MUOrderDetailBottomCell.m in Sources */,
+				40EA59E41B5895CB00B81FE8 /* MUFDetailManorCell.m in Sources */,
+				40EA59D91B5895CB00B81FE8 /* MUFOrderDeliverNoteCell.m in Sources */,
+				8DFC69E11B311FD0008EA84B /* MUTourDetailViewController.m in Sources */,
+				8D3AE4021B14474200D35EED /* MBProgressHUD.m in Sources */,
+				40EA59E11B5895CB00B81FE8 /* MUFDetailCommentsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D3AE3C61B1440FF00D35EED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3AE3C71B1440FF00D35EED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D3AE3D51B1440FF00D35EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D3AE3D61B1440FF00D35EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D3AE3D81B1440FF00D35EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A163044895D4E12BD79A902 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Development: Zheng Xiang (2P79WR572G)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/manor_User_ios-Prefix.pch";
+				INFOPLIST_FILE = manor_User_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0fb88910-5252-4700-8813-5d8b37d92e61";
+			};
+			name = Debug;
+		};
+		8D3AE3D91B1440FF00D35EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A163044895D4E12BD79A902 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sports express information technology Co., LTD HuNan (7FYTDJ9ZLT)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/manor_User_ios-Prefix.pch";
+				INFOPLIST_FILE = manor_User_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0fb88910-5252-4700-8813-5d8b37d92e61";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3AE3AF1B1440FE00D35EED /* Build configuration list for PBXProject "manor_User_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3AE3D51B1440FF00D35EED /* Debug */,
+				8D3AE3D61B1440FF00D35EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3AE3D71B1440FF00D35EED /* Build configuration list for PBXNativeTarget "manor_User_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3AE3D81B1440FF00D35EED /* Debug */,
+				8D3AE3D91B1440FF00D35EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D3AE3AC1B1440FE00D35EED /* Project object */;
+}
