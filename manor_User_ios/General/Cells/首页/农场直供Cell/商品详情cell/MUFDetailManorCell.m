@@ -7,6 +7,7 @@
 //
 
 #import "MUFDetailManorCell.h"
+#import "MUManorTourViewController.h"
 
 #define BORDER_COLOR [UIColor colorWithRed:233/255.0f green:233/255.0f blue:233/255.0f alpha:1.0]
 @implementation MUFDetailManorCell
@@ -91,4 +92,9 @@
             break;
     }
 }
+- (IBAction)careFunction:(id)sender
+{
+    NSLog(@"庄园关注");
+}
+
 @end

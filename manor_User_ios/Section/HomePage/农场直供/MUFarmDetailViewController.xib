@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -108,7 +108,7 @@
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
             <point key="canvasLocation" x="262" y="325"/>
         </view>
-        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="v4a-FC-oSe">
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="v4a-FC-oSe">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -602,12 +602,12 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <inset key="titleEdgeInsets" minX="5" minY="4" maxX="0.0" maxY="0.0"/>
                             <inset key="imageEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" title="我的" image="myItem">
+                            <state key="normal" title="分享" image="myShare">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="goMymanorVC:" destination="-1" eventType="touchUpInside" id="ejP-rv-pLN"/>
+                                <action selector="share:" destination="-1" eventType="touchUpInside" id="dls-2H-mNg"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kne-BL-ctc">
@@ -683,7 +683,7 @@
         <image name="count" width="13" height="13"/>
         <image name="details" width="13" height="13"/>
         <image name="homeItem" width="22" height="22"/>
-        <image name="myItem" width="22" height="22"/>
+        <image name="myShare" width="22" height="22"/>
         <image name="pack" width="13" height="13"/>
         <image name="shopcartItem" width="22" height="22"/>
         <image name="tabBarbg" width="375" height="49"/>

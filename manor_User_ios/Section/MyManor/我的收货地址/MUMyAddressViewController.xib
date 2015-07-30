@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -20,35 +20,57 @@
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sya-FK-t0k">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="404"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="404" id="N1z-5e-IVG"/>
+                    </constraints>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="RBV-kR-4uZ"/>
                         <outlet property="delegate" destination="-1" id="H1H-Az-t1c"/>
                     </connections>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUy-NS-5TI">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YfV-0e-eXp">
                     <rect key="frame" x="0.0" y="404" width="320" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabBarbg" translatesAutoresizingMaskIntoConstraints="NO" id="BMr-em-Bzl">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2w-Qs-6UX">
+                            <rect key="frame" x="117" y="10" width="87" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="d5Q-PF-sd3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="新增地址">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="newAddressFunction:" destination="-1" eventType="touchUpInside" id="ZI3-d9-eVB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="REM-bd-Qf7"/>
+                        <constraint firstItem="BMr-em-Bzl" firstAttribute="centerY" secondItem="v2w-Qs-6UX" secondAttribute="centerY" id="5Ke-M0-lJW"/>
+                        <constraint firstAttribute="height" constant="50" id="Gxw-gC-l5U"/>
+                        <constraint firstAttribute="bottom" secondItem="BMr-em-Bzl" secondAttribute="bottom" id="QC6-JO-L9V"/>
+                        <constraint firstAttribute="trailing" secondItem="BMr-em-Bzl" secondAttribute="trailing" id="Sss-59-a8b"/>
+                        <constraint firstItem="BMr-em-Bzl" firstAttribute="top" secondItem="YfV-0e-eXp" secondAttribute="top" id="XOz-xX-en0"/>
+                        <constraint firstItem="v2w-Qs-6UX" firstAttribute="top" secondItem="YfV-0e-eXp" secondAttribute="top" constant="10" id="i38-E4-9ny"/>
+                        <constraint firstItem="v2w-Qs-6UX" firstAttribute="centerX" secondItem="BMr-em-Bzl" secondAttribute="centerX" id="jPd-3K-fPw"/>
+                        <constraint firstItem="BMr-em-Bzl" firstAttribute="leading" secondItem="YfV-0e-eXp" secondAttribute="leading" id="n2j-na-SDF"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <state key="normal" title="新增地址" backgroundImage="tabBarbg">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="newAddressFunction:" destination="-1" eventType="touchUpInside" id="Qdf-2S-rdT"/>
-                    </connections>
-                </button>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="CUy-NS-5TI" firstAttribute="leading" secondItem="sya-FK-t0k" secondAttribute="leading" id="5IG-qp-Yyg"/>
-                <constraint firstItem="sya-FK-t0k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cys-Rj-cVd"/>
-                <constraint firstAttribute="trailing" secondItem="CUy-NS-5TI" secondAttribute="trailing" id="GiI-Vu-fCy"/>
-                <constraint firstAttribute="bottom" secondItem="CUy-NS-5TI" secondAttribute="bottom" constant="50" id="UNy-q7-5Iv"/>
-                <constraint firstItem="CUy-NS-5TI" firstAttribute="top" secondItem="sya-FK-t0k" secondAttribute="bottom" id="Vaf-fD-W34"/>
-                <constraint firstItem="sya-FK-t0k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vY3-8c-Z1k"/>
-                <constraint firstItem="CUy-NS-5TI" firstAttribute="trailing" secondItem="sya-FK-t0k" secondAttribute="trailing" id="zqR-jz-b2q"/>
+                <constraint firstItem="sya-FK-t0k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0c3-Cm-rwJ"/>
+                <constraint firstItem="sya-FK-t0k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1Tv-Lm-xDj"/>
+                <constraint firstAttribute="bottom" secondItem="YfV-0e-eXp" secondAttribute="bottom" constant="50" id="A3p-gR-Bra"/>
+                <constraint firstAttribute="trailing" secondItem="sya-FK-t0k" secondAttribute="trailing" id="fi1-gw-Dv7"/>
+                <constraint firstItem="YfV-0e-eXp" firstAttribute="trailing" secondItem="sya-FK-t0k" secondAttribute="trailing" id="miI-OM-hFJ"/>
+                <constraint firstItem="YfV-0e-eXp" firstAttribute="leading" secondItem="sya-FK-t0k" secondAttribute="leading" id="s7l-RD-lir"/>
+                <constraint firstItem="YfV-0e-eXp" firstAttribute="top" secondItem="sya-FK-t0k" secondAttribute="bottom" id="xr0-dG-Z7s"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
             <point key="canvasLocation" x="305" y="364"/>

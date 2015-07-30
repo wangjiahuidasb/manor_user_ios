@@ -23,7 +23,7 @@
 @property (weak, nonatomic) IBOutlet UIView *pwdView;
 
 
-@property (weak, nonatomic) IBOutlet UITextField *phoneNum;
+@property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
@@ -49,6 +49,10 @@
     _loginBtn.layer.cornerRadius = 15.0f;
     _nameView.layer.cornerRadius = 4.0f;
     _pwdView.layer.cornerRadius = 4.0f;
+    
+    
+    [_phoneTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    [_pwdTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
 }
 
 

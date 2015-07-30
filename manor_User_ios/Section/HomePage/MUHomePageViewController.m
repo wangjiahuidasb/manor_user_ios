@@ -66,11 +66,11 @@
 - (void)viewWillLayoutSubviews
 {
    
-    NSArray *imageArray = @[@"hotActivity",@"manorFarm",@"manorTour",@"manorMoney",@"more"];
-    for (int i=0;i<5;i++)
+    NSArray *imageArray = @[@"hotActivity",@"manorFarm",@"manorTour",@"more"];
+    for (int i=0;i<4;i++)
     {
         UIButton *functionBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        int slide_X = (SCREENWIDTH-5*IMG_WIDTH)/10;
+        int slide_X = (SCREENWIDTH-4*IMG_WIDTH)/10;
         int slide_Y = (76-IMG_HEIGHT)/2;
         functionBtn.frame = CGRectMake(slide_X+(2*slide_X+IMG_WIDTH)*i,slide_Y, IMG_WIDTH, IMG_HEIGHT);
         functionBtn.tag = 400+i;
@@ -158,10 +158,8 @@
             break;
         }
             
+      
         case 3:
-            NSLog(@"庄园众筹");
-            break;
-        case 4:
             NSLog(@"更多");
             [self.navigationController popToRootViewControllerAnimated:NO];
             [tabBarView bringToTargetVC:401];

@@ -9,6 +9,10 @@
 #import "MUCategoryViewController.h"
 #import "MUMemberViewController.h"
 #import "MUTabBarViewController.h"
+#import "MULocationViewController.h"
+#import "MUActivityViewController.h"
+#import "MUFarmApplyViewController.h"
+#import "MUManorTourViewController.h"
 
 #define VIEWWIDTH SCREENWIDTH-75
 #define BTNWIDTH (SCREENWIDTH >320 ? 65 : 50)
@@ -23,7 +27,6 @@
  
 }
 @property (weak, nonatomic) IBOutlet UIView *searchView;
-@property (weak, nonatomic) IBOutlet UIView *zchouView;
 @property (weak, nonatomic) IBOutlet UIView *farmView;
 @property (weak, nonatomic) IBOutlet UIView *travelView;
 @property (weak, nonatomic) IBOutlet UIView *memberView;
@@ -47,11 +50,10 @@
     
     
     
-    [self typeFunction:3 view:_searchView array:btn2Array selectView:1];
-    [self typeFunction:6 view:_zchouView array:btn1Array selectView:2];
-    [self typeFunction:6 view:_farmView array:btn1Array selectView:3];
-    [self typeFunction:6 view:_travelView array:btn1Array selectView:4];
-    [self typeFunction:2 view:_memberView array:btn3Array selectView:5];
+    [self typeFunction:_searchView array:btn2Array selectView:1];
+    [self typeFunction:_farmView array:btn1Array selectView:2];
+    [self typeFunction:_travelView array:btn1Array selectView:3];
+    [self typeFunction:_memberView array:btn3Array selectView:4];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -63,11 +65,11 @@
 
 
 #pragma mark 分类点击
-- (void)typeFunction:(int) num view:(UIView *)view array:(NSArray *)array selectView:(int) selectedNum
+- (void)typeFunction:(UIView *)view array:(NSArray *)array selectView:(int) selectedNum
 {
     int BTNHEIGHT;
     int slide_y;
-    if (num<4) {
+    if (array.count<4) {
         BTNHEIGHT = 30;
         slide_y = 23;
     }else
@@ -75,7 +77,7 @@
         BTNHEIGHT = 20;
         slide_y = 12;
     }
-    for (int i=0; i<num; i++) {
+    for (int i=0; i<array.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         if ( i <4) {
             button.frame = CGRectMake(12+i*(BTNWIDTH+8), slide_y, BTNWIDTH, BTNHEIGHT);
@@ -99,9 +101,7 @@
             case 4:
                 button.tag = 400+i;
                 break;
-            case 5:
-                button.tag = 500+i;
-                break;
+           
                 
             default:
                 break;
@@ -122,25 +122,48 @@
 {
     
     NSLog(@"点击的标签是---%ld",(long)button.tag);
+    int row = button.tag%100;
     
     switch (button.tag /100) {
         case 1:
+        {
             NSLog(@"搜获季");
+            MUActivityViewController *activityVC = [[MUActivityViewController alloc]init];
+            activityVC.type = btn2Array[row];
+            [self.navigationController pushViewController:activityVC animated:YES];
+        }
+            
             break;
         case 2:
-            NSLog(@"庄园众筹");
+        {
+            NSLog(@"农场直供");
+            MUFarmApplyViewController *farmApplyVC = [[MUFarmApplyViewController alloc]init];
+            farmApplyVC.type = btn1Array[row];
+            [self.navigationController pushViewController:farmApplyVC animated:YES];
+        }
+            
             break;
         case 3:
-            NSLog(@"农场直供");
+        {
+            NSLog(@"旅游路线");
+            MUManorTourViewController *manorTourVC = [[MUManorTourViewController alloc]init];
+            manorTourVC.type = btn1Array[row];
+            [self.navigationController pushViewController:manorTourVC animated:YES];
+        }
+            
             break;
         case 4:
-            NSLog(@"旅游路线");
-            break;
-        case 5:
         {
             NSLog(@"会员社区");
-            MUMemberViewController  *memberVC = [[MUMemberViewController alloc]init];
-            [self.navigationController pushViewController:memberVC animated:YES];
+            if(button.tag == 400 )
+            {
+                MUMemberViewController *memberVC = [[MUMemberViewController alloc]init];
+                [self.navigationController pushViewController:memberVC animated:YES];
+            }else
+            {
+                MULocationViewController *locationVC = [[MULocationViewController alloc]init];
+                [self.navigationController pushViewController:locationVC animated:YES];
+            }
         }
             break;
             

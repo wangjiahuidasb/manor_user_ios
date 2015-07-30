@@ -59,6 +59,12 @@
     _registerBtn.layer.cornerRadius = 15.0f;
     _codeBtn.layer.cornerRadius = 4.0f;
     
+    [_phoneTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    [_codeTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    [_pwdTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    [_surePwdTextField setValue:[UIColor colorWithRed:104/255.0f green:200/255.0f blue:134/255.0f alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    
+    
 }
 - (IBAction)codeFunction:(id)sender {
 }

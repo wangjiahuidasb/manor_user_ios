@@ -11,9 +11,7 @@
 @interface MUNewAddressViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
-@property (weak, nonatomic) IBOutlet UILabel *provinceLabel;
-@property (weak, nonatomic) IBOutlet UILabel *cityLabel;
-@property (weak, nonatomic) IBOutlet UILabel *areaLabel;
+@property (weak, nonatomic) IBOutlet UILabel *LocationLabel;
 @property (weak, nonatomic) IBOutlet UITextField *streetTextField;
 @property (weak, nonatomic) IBOutlet UITextField *postcodeTextField;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
@@ -28,7 +26,7 @@
     
     self.navigationItem.leftBarButtonItem = [Tools getNavBarItem:self clickAction:@selector(back)];
     
-    _saveBtn.layer.cornerRadius = 4.0f;
+//    _saveBtn.layer.cornerRadius = 4.0f;
     
 
 }

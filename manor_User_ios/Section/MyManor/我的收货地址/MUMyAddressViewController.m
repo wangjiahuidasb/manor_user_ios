@@ -63,7 +63,10 @@
     }
     
 }
-- (IBAction)newAddressFunction:(id)sender {
+
+- (IBAction)newAddressFunction:(id)sender
+{
+    NSLog(@"1");
     MUNewAddressViewController *newAddressVC = [[MUNewAddressViewController alloc]init];
     [self.navigationController pushViewController:newAddressVC animated:YES];
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -7,17 +7,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MUNewAddressViewController">
             <connections>
-                <outlet property="areaLabel" destination="Qes-ot-cnO" id="bHY-7X-D7D"/>
-                <outlet property="areaView" destination="kmP-6Y-ocB" id="Wc6-T1-aCM"/>
-                <outlet property="cityLabel" destination="f62-sZ-c8Z" id="J6c-zP-IZy"/>
-                <outlet property="cityView" destination="UAs-ae-hnX" id="msA-6J-umP"/>
-                <outlet property="nameTextField" destination="cox-JR-O4C" id="jeq-tu-ELv"/>
-                <outlet property="phoneTextField" destination="JEu-N1-gwZ" id="faV-Ul-19O"/>
-                <outlet property="postcodeTextField" destination="yVo-Mc-EVQ" id="4Ji-eb-aOC"/>
-                <outlet property="provinceLabel" destination="xOM-Ks-5zb" id="Qen-5A-H64"/>
-                <outlet property="provinceView" destination="9c7-03-UP7" id="ow6-hs-C71"/>
-                <outlet property="saveBtn" destination="Ssb-qc-zs9" id="5Ud-92-SEL"/>
-                <outlet property="streetTextField" destination="qTP-H0-h7m" id="q6t-Xr-86k"/>
+                <outlet property="LocationLabel" destination="xOM-Ks-5zb" id="TWm-so-RWL"/>
+                <outlet property="nameTextField" destination="cox-JR-O4C" id="jmX-9v-K2c"/>
+                <outlet property="phoneTextField" destination="JEu-N1-gwZ" id="ZNH-Fc-uMI"/>
+                <outlet property="postcodeTextField" destination="yVo-Mc-EVQ" id="oBf-ge-BPj"/>
+                <outlet property="saveBtn" destination="Ssb-qc-zs9" id="olD-2l-csU"/>
+                <outlet property="streetTextField" destination="qTP-H0-h7m" id="O6U-wF-80U"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -87,8 +82,8 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="省份" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R7U-wS-iIp">
-                            <rect key="frame" x="12" y="15" width="42" height="15"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所在地区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R7U-wS-iIp">
+                            <rect key="frame" x="12" y="15" width="57" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,76 +107,8 @@
                         <outletCollection property="gestureRecognizers" destination="loz-HP-gTH" appends="YES" id="Dq3-JG-djP"/>
                     </connections>
                 </view>
-                <view contentMode="scaleToFill" id="UAs-ae-hnX" userLabel="市-View">
-                    <rect key="frame" x="0.0" y="135" width="320" height="45"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" id="RYF-gT-QrF">
-                            <rect key="frame" x="12" y="44" width="296" height="1"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
-                        </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f62-sZ-c8Z">
-                            <rect key="frame" x="12" y="15" width="42" height="15"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hZR-G2-X6P">
-                            <rect key="frame" x="80" y="15" width="210" height="15"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" id="a9k-3u-dyQ">
-                            <rect key="frame" x="295" y="16" width="13" height="13"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <gestureRecognizers/>
-                    <connections>
-                        <outletCollection property="gestureRecognizers" destination="NXH-Ya-6V4" appends="YES" id="aDP-JL-dmI"/>
-                    </connections>
-                </view>
-                <view contentMode="scaleToFill" id="kmP-6Y-ocB" userLabel="区-View">
-                    <rect key="frame" x="0.0" y="180" width="320" height="45"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" id="QUj-4d-qLt">
-                            <rect key="frame" x="12" y="44" width="296" height="1"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            <color key="backgroundColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
-                        </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qes-ot-cnO">
-                            <rect key="frame" x="12" y="15" width="42" height="15"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SKj-1K-8ak">
-                            <rect key="frame" x="80" y="15" width="210" height="15"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" id="7a8-xd-qKA">
-                            <rect key="frame" x="295" y="16" width="13" height="13"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <gestureRecognizers/>
-                    <connections>
-                        <outletCollection property="gestureRecognizers" destination="0QS-6h-6QQ" appends="YES" id="3iK-AO-4RX"/>
-                    </connections>
-                </view>
                 <view contentMode="scaleToFill" id="1LU-a2-Xub" userLabel="详细地址-View">
-                    <rect key="frame" x="0.0" y="225" width="320" height="45"/>
+                    <rect key="frame" x="0.0" y="135" width="320" height="45"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="4qO-qp-S8D">
@@ -207,7 +134,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" id="VKj-VC-8EV" userLabel="邮编-View">
-                    <rect key="frame" x="0.0" y="270" width="320" height="45"/>
+                    <rect key="frame" x="0.0" y="180" width="320" height="45"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="sch-5A-GaD">
@@ -241,7 +168,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ssb-qc-zs9">
-                            <rect key="frame" x="207" y="10" width="100" height="30"/>
+                            <rect key="frame" x="206.99999951183793" y="10" width="100" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES"/>
                             <color key="backgroundColor" red="0.12941176469999999" green="0.70196078429999997" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>

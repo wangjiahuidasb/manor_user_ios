@@ -72,6 +72,8 @@
     
     [self drawlayer];
     
+    NSLog(@"type is--%@",_type);
+    
 }
 
 #pragma mark 常用方法

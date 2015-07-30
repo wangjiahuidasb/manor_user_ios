@@ -12,7 +12,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
-    _btnView.layer.cornerRadius = 4.0f;
+    _btnView.layer.cornerRadius = 8.0f;
     _btnView.layer.borderWidth = 1.0f;
     _btnView.layer.masksToBounds = YES;
     _btnView.layer.borderColor = [UIColor colorWithRed:33/255.0f green:179/255.0f blue:78/255.0f alpha:1.0].CGColor;

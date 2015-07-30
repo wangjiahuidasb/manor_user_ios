@@ -14,11 +14,12 @@
 #import "MUTabBarViewController.h"
 #import "MUFarmDetailViewController.h"
 #import "MUSeachViewController.h"
+#import "MUFarmCategyCell.h"
 
 #define BTN_WIDTH 65
 #define BTN_HEIGHT 30
 #define BTNCOLOR [UIColor colorWithRed:33/255.0f green:179/255.0f blue:18/255.0f alpha:1]
-@interface MUFarmApplyViewController ()<UITableViewDataSource,UITableViewDelegate,UIPickerViewDelegate,UIPickerViewDataSource>
+@interface MUFarmApplyViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
    
     MUTabBarViewController *tabBarView;
@@ -36,6 +37,10 @@
     
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UITableView *categyTableView;
+@property (weak, nonatomic) IBOutlet UITableView *detailTableView;
+
 @property (strong, nonatomic) IBOutlet UIView *titleView;
 @property (strong, nonatomic) IBOutlet UIView *itemView;
 
@@ -43,7 +48,7 @@
 @property (weak, nonatomic) IBOutlet UIView *searchView;
 //cateView
 @property (strong, nonatomic) IBOutlet UIView *blurView;
-@property (weak, nonatomic) IBOutlet UIPickerView *pickView;
+
 
 @end
 
@@ -80,11 +85,7 @@
     //cateView
     _blurView.backgroundColor = [UIColor colorWithRed:51/255.0f green:57/255.0f blue:71/255.0f alpha:0.5];
     [_blurView setFrame:CGRectMake(0, 0, SCREENWIDTH,SCREENHEIGHT)];
-    _pickView.dataSource = self;
-    _pickView.delegate = self;
-   
-   [_pickView selectRow:cateArray.count/2 inComponent:1 animated:YES];
-    [_pickView selectRow:4 inComponent:0 animated:YES];
+  
 
     cateArray = @[@"水果",@"蔬菜",@"水产",@"禽类",@"肉类",@"保健品"];
     cateDetailArray = @[@"测试1",@"测试2",@"测试3",@"测试4",@"测试5",@"测试6",@"测试7",@"测试8"];
@@ -94,6 +95,8 @@
     _itemView.hidden = YES;
     [self.view addSubview:_itemView];
     
+    
+    NSLog(@"type is ---%@",_type);
 }
 
 
@@ -204,19 +207,43 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-   
-    return 2;
+    if (tableView == _tableView)
+    {
+        return 2;
+        
+    }else if (tableView == _categyTableView)
+    {
+        //分类table
+        return 1;
+    }else
+    {
+        //详情table
+        return 1;
+    }
+    
    
     
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (section ==0) {
-        return 1;
+    if (tableView == _tableView)
+    {
+        if (section ==0) {
+            return 1;
+        }else
+        {
+            return 6;
+        }
+    }else if (tableView == _categyTableView)
+    {
+        //分类table
+        return 5;
     }else
     {
-        return 6;
+        //详情table
+        return 5;
     }
+    
     
     
     
@@ -225,26 +252,44 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    if(section ==0)
+    if (tableView == _tableView)
     {
-        return 0.01;
+        if(section ==0)
+        {
+            return 0.01;
+        }else
+        {
+            return 58;
+        }
+        
     }else
     {
-        return 58;
+        //详情table
+        return 0.01;
     }
+    
     
     
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section ==0)
+    if (tableView == _tableView)
     {
-        return 165;
-    }
-    else
+        if (indexPath.section ==0)
+        {
+            return 165;
+        }
+        else
+        {
+            return 122;
+        }
+        
+    }else
     {
-        return 122;
+        
+        return 21;
     }
+    
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
@@ -290,77 +335,80 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.section ==0)
+    if (tableView == _tableView)
     {
-        MUScrollViewTableViewCell *scrollCell = [tableView dequeueReusableCellWithIdentifier:@"scrollCell"];
-        [scrollCell setArray:@[@"example_3",@"example_3"] frame:CGRectMake(0, 0, SCREENWIDTH, 165) adNum:1 pushView:self.navigationController];
-        return scrollCell;
-    }
-    else
-    {
-        MUFarmApplyTableViewCell *farmCell = [tableView dequeueReusableCellWithIdentifier:@"farmCell"];
-        if (farmCell ==nil) {
-            farmCell = [[[NSBundle mainBundle]loadNibNamed:@"MUFarmApplyTableViewCell" owner:self options:nil]lastObject];
+        if(indexPath.section ==0)
+        {
+            MUScrollViewTableViewCell *scrollCell = [tableView dequeueReusableCellWithIdentifier:@"scrollCell"];
+            [scrollCell setArray:@[@"example_3",@"example_3"] frame:CGRectMake(0, 0, SCREENWIDTH, 165) adNum:1 pushView:self.navigationController];
+            return scrollCell;
         }
-        return farmCell;
+        else
+        {
+            MUFarmApplyTableViewCell *farmCell = [tableView dequeueReusableCellWithIdentifier:@"farmCell"];
+            if (farmCell ==nil) {
+                farmCell = [[[NSBundle mainBundle]loadNibNamed:@"MUFarmApplyTableViewCell" owner:self options:nil]lastObject];
+            }
+            return farmCell;
+        }
+
+        
+    }else if (tableView == _categyTableView)
+    {
+        //分类table
+        MUFarmCategyCell *cateCell = [tableView dequeueReusableCellWithIdentifier:@"cateCell"];
+        if (cateCell == nil) {
+            cateCell = [[[NSBundle mainBundle]loadNibNamed:@"MUFarmCategyCell" owner:self options:nil]lastObject];
+        }
+        return cateCell;
+        
+    }else
+    {
+        //详情table
+        MUFarmCategyCell *detailCell = [tableView dequeueReusableCellWithIdentifier:@"cateCell"];
+        if (detailCell == nil) {
+            detailCell = [[[NSBundle mainBundle]loadNibNamed:@"MUFarmCategyCell" owner:self options:nil]lastObject];
+        }
+        detailCell.backgroundColor = [UIColor colorWithRed:239/255.0f green:239/255.0f blue:239/255.0f alpha:1.0];
+        detailCell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        detailCell.titleLabel.text = @"包子";
+        return detailCell;
     }
+    
+    
+    
+    
+    
+    
     
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section==1) {
-        MUFarmDetailViewController *farmDetailVC = [[MUFarmDetailViewController alloc]init];
-        [self.navigationController pushViewController:farmDetailVC animated:YES];
-    }
-    
-    
-}
-
-
-#pragma mark 实现协议UIPickerViewDelegate方法
-
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return 2;
-}
-- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
-{
-    if (component ==0) {
-        return cateArray.count;
-    }else
+    if (tableView == _tableView)
     {
-        return cateDetailArray.count;
-    }
-    
-}
-
--(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
-{
-    if (component == 0) {
+        if (indexPath.section==1) {
+            MUFarmDetailViewController *farmDetailVC = [[MUFarmDetailViewController alloc]init];
+            [self.navigationController pushViewController:farmDetailVC animated:YES];
+        }
         
-        return [cateArray objectAtIndex:row];
-    }else
+    }else if (tableView == _categyTableView)
     {
-        return [cateDetailArray objectAtIndex:row];
-    }
-    
-}
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
-{
-    if (component == 0) {
-        
-        NSLog(@"proID is%@",[cateArray objectAtIndex:row]);
-
-        [_pickView selectRow:cateArray.count/2 inComponent:1 animated:YES];
-        [_pickView reloadComponent:1];
+        //分类table
         
     }else
     {
-       
-        NSLog(@"areaID is%@",[cateDetailArray objectAtIndex:row]);
+        //详情table
     }
     
+    
+    
+    
+    
+    
+    
 }
+
 
 
 @end

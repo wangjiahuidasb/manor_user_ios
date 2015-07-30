@@ -15,6 +15,7 @@
 #import "MUFarmOrderViewController.h"
 #import "MUCommentViewController.h"
 #import "MUTabBarViewController.h"
+#import "MUManorTourViewController.h"
 
 #define BORDER_COLOR [UIColor colorWithRed:33/255.0f green:179/255.0f blue:68/255.0f alpha:1.0]
 @interface MUFarmDetailViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -105,6 +106,11 @@
     }
     
 }
+- (void)goManorTourVC
+{
+    MUManorTourViewController *manorTourVC = [[MUManorTourViewController alloc]init];
+    [self.navigationController pushViewController:manorTourVC animated:YES];
+}
 #pragma mark 更多按钮View
 - (IBAction)goHomePageVC:(id)sender {
     _itemView.hidden = YES;
@@ -124,11 +130,10 @@
     [self.navigationController popToRootViewControllerAnimated:NO];
     [tabBarView bringToTargetVC:402];
 }
-- (IBAction)goMymanorVC:(id)sender {
+- (IBAction)share:(id)sender {
     _itemView.hidden = YES;
     
-    [self.navigationController popToRootViewControllerAnimated:NO];
-    [tabBarView bringToTargetVC:403];
+    NSLog(@"分享");
 }
 
 
@@ -257,6 +262,7 @@
             manorCell = [[[NSBundle mainBundle]loadNibNamed:@"MUFDetailManorCell" owner:self options:nil]lastObject];
         }
         [manorCell setSelectedStar:4];
+        [manorCell.goManorBtn addTarget:self action:@selector(goManorTourVC) forControlEvents:UIControlEventTouchUpInside];
         return manorCell;
     }
 }

@@ -90,7 +90,7 @@
         
         pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake(240, 140, 70, 25)];
         pageControl.pageIndicatorTintColor = [UIColor colorWithRed:33/255.0f green:179/255.0f blue:78/255.0f alpha:1];
-        pageControl.currentPageIndicatorTintColor = [UIColor colorWithRed:0/255.0f green:0/255.0f blue:0/255.0f alpha:0.5];
+        pageControl.currentPageIndicatorTintColor = [UIColor colorWithWhite:1 alpha:0.7];
         pageControl.numberOfPages = imageArray.count;
         pageControl.currentPage = 0;
         

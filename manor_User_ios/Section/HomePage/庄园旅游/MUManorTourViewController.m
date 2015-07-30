@@ -80,6 +80,8 @@
     _itemView.frame = CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT);
     _itemView.hidden = YES;
     [self.view addSubview:_itemView];
+    
+    NSLog(@"type is ---%@",_type);
 }
 #pragma mark 常用方法
 - (IBAction)back:(id)sender {

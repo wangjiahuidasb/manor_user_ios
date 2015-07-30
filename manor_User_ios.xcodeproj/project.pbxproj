@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1892CE621B6A17BF0060DD16 /* MUFarmCategyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892CE601B6A17BF0060DD16 /* MUFarmCategyCell.m */; };
+		1892CE631B6A17BF0060DD16 /* MUFarmCategyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892CE611B6A17BF0060DD16 /* MUFarmCategyCell.xib */; };
+		1892CE681B6A245B0060DD16 /* MULocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892CE661B6A245B0060DD16 /* MULocationViewController.m */; };
+		1892CE691B6A245B0060DD16 /* MULocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892CE671B6A245B0060DD16 /* MULocationViewController.xib */; };
+		1892CE6D1B6A2C560060DD16 /* MUWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892CE6B1B6A2C560060DD16 /* MUWebViewViewController.m */; };
+		1892CE6E1B6A2C560060DD16 /* MUWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892CE6C1B6A2C560060DD16 /* MUWebViewViewController.xib */; };
 		401072691B620C0C005F6492 /* MUMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401072671B620C0C005F6492 /* MUMemberViewController.m */; };
 		4010726A1B620C0C005F6492 /* MUMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401072681B620C0C005F6492 /* MUMemberViewController.xib */; };
 		401072791B6211AC005F6492 /* MUMemberContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 401072771B6211AB005F6492 /* MUMemberContentCell.m */; };
@@ -179,6 +185,15 @@
 
 /* Begin PBXFileReference section */
 		0A163044895D4E12BD79A902 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1892CE5F1B6A17BF0060DD16 /* MUFarmCategyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUFarmCategyCell.h; sourceTree = "<group>"; };
+		1892CE601B6A17BF0060DD16 /* MUFarmCategyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUFarmCategyCell.m; sourceTree = "<group>"; };
+		1892CE611B6A17BF0060DD16 /* MUFarmCategyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUFarmCategyCell.xib; sourceTree = "<group>"; };
+		1892CE651B6A245B0060DD16 /* MULocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULocationViewController.h; sourceTree = "<group>"; };
+		1892CE661B6A245B0060DD16 /* MULocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULocationViewController.m; sourceTree = "<group>"; };
+		1892CE671B6A245B0060DD16 /* MULocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MULocationViewController.xib; sourceTree = "<group>"; };
+		1892CE6A1B6A2C560060DD16 /* MUWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUWebViewViewController.h; sourceTree = "<group>"; };
+		1892CE6B1B6A2C560060DD16 /* MUWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUWebViewViewController.m; sourceTree = "<group>"; };
+		1892CE6C1B6A2C560060DD16 /* MUWebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUWebViewViewController.xib; sourceTree = "<group>"; };
 		401072661B620C0C005F6492 /* MUMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMemberViewController.h; sourceTree = "<group>"; };
 		401072671B620C0C005F6492 /* MUMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMemberViewController.m; sourceTree = "<group>"; };
 		401072681B620C0C005F6492 /* MUMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUMemberViewController.xib; sourceTree = "<group>"; };
@@ -452,6 +467,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1892CE641B6A24460060DD16 /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+				1892CE651B6A245B0060DD16 /* MULocationViewController.h */,
+				1892CE661B6A245B0060DD16 /* MULocationViewController.m */,
+				1892CE671B6A245B0060DD16 /* MULocationViewController.xib */,
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
 		401072651B620BEA005F6492 /* 会员社区 */ = {
 			isa = PBXGroup;
 			children = (
@@ -626,6 +651,9 @@
 				40EA59851B5895CA00B81FE8 /* MUFDetailHeadImgCell.h */,
 				40EA59861B5895CA00B81FE8 /* MUFDetailHeadImgCell.m */,
 				40EA59871B5895CA00B81FE8 /* MUFDetailHeadImgCell.xib */,
+				1892CE5F1B6A17BF0060DD16 /* MUFarmCategyCell.h */,
+				1892CE601B6A17BF0060DD16 /* MUFarmCategyCell.m */,
+				1892CE611B6A17BF0060DD16 /* MUFarmCategyCell.xib */,
 				40EA59881B5895CA00B81FE8 /* 农场订单Cell */,
 				40EA59A61B5895CA00B81FE8 /* 商品详情cell */,
 			);
@@ -883,6 +911,7 @@
 		8D3AE3E01B14460900D35EED /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1892CE641B6A24460060DD16 /* 周边 */,
 				401072651B620BEA005F6492 /* 会员社区 */,
 				8D3AE3F31B14469800D35EED /* MUCategoryViewController.h */,
 				8D3AE3F41B14469800D35EED /* MUCategoryViewController.m */,
@@ -1075,6 +1104,9 @@
 				8D4701D51B3269BC00901232 /* MUCommentViewController.h */,
 				8D4701D61B3269BC00901232 /* MUCommentViewController.m */,
 				8D4701D71B3269BC00901232 /* MUCommentViewController.xib */,
+				1892CE6A1B6A2C560060DD16 /* MUWebViewViewController.h */,
+				1892CE6B1B6A2C560060DD16 /* MUWebViewViewController.m */,
+				1892CE6C1B6A2C560060DD16 /* MUWebViewViewController.xib */,
 			);
 			path = "通用VC";
 			sourceTree = "<group>";
@@ -1202,6 +1234,7 @@
 				40EA59E31B5895CB00B81FE8 /* MUFDetailContentCell.xib in Resources */,
 				40EA59D21B5895CB00B81FE8 /* MUFOrderCouponCell.xib in Resources */,
 				40EA59CF1B5895CB00B81FE8 /* MUFOrderAddressCell.xib in Resources */,
+				1892CE6E1B6A2C560060DD16 /* MUWebViewViewController.xib in Resources */,
 				405F31291B4FA27D00C29E34 /* MUMyCareViewController.xib in Resources */,
 				40F9722A1B4A6A0900F7AE09 /* MUOrderDetailAddressCell.xib in Resources */,
 				404350761B58E82200EF6E1C /* MUCarManorHeadCell.xib in Resources */,
@@ -1225,6 +1258,7 @@
 				40EA59CB1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.xib in Resources */,
 				406458A61B53B30B00AD48A8 /* MUManageAddressCell.xib in Resources */,
 				40EA59E01B5895CB00B81FE8 /* MUFOrderSumCell.xib in Resources */,
+				1892CE691B6A245B0060DD16 /* MULocationViewController.xib in Resources */,
 				4079045A1B56091300B67B9E /* MUForgetPwdViewController.xib in Resources */,
 				40737C871B60C7090020E8CA /* MUSeachViewController.xib in Resources */,
 				8D4701CE1B32526500901232 /* MUTourListViewController.xib in Resources */,
@@ -1268,6 +1302,7 @@
 				8D4277FC1B4293970046D5E0 /* MUPublicCommentsViewController.xib in Resources */,
 				40EA59E71B5895CB00B81FE8 /* MUManorTourCell.xib in Resources */,
 				8D4277D61B422D9D0046D5E0 /* MUCouponTableViewCell.xib in Resources */,
+				1892CE631B6A17BF0060DD16 /* MUFarmCategyCell.xib in Resources */,
 				8D3AE3C51B1440FE00D35EED /* Images.xcassets in Resources */,
 				406458AB1B53C17B00AD48A8 /* MUNewAddressViewController.xib in Resources */,
 				405F312F1B4FA92400C29E34 /* MUStrategyCell.xib in Resources */,
@@ -1319,6 +1354,7 @@
 			files = (
 				40EA59FC1B58A13600B81FE8 /* MUSecKillViewController.m in Sources */,
 				8D4701CD1B32526500901232 /* MUTourListViewController.m in Sources */,
+				1892CE6D1B6A2C560060DD16 /* MUWebViewViewController.m in Sources */,
 				40EA59CA1B5895CB00B81FE8 /* MUFarmTypeTableViewCell.m in Sources */,
 				40EA59EC1B5895CB00B81FE8 /* MUMDetailHeadCell.m in Sources */,
 				8DF689D21B2672FF00A9CC91 /* MUFarmDetailViewController.m in Sources */,
@@ -1362,6 +1398,7 @@
 				404350751B58E82200EF6E1C /* MUCarManorHeadCell.m in Sources */,
 				40F9721F1B4A587800F7AE09 /* MUOrderDetailHeadCell.m in Sources */,
 				8D64D6521B2EC4D900A6A017 /* MUManorTourViewController.m in Sources */,
+				1892CE681B6A245B0060DD16 /* MULocationViewController.m in Sources */,
 				40EA59F71B5895F700B81FE8 /* MUActivityCell.m in Sources */,
 				8D3AE3F61B14469800D35EED /* MUCategoryViewController.m in Sources */,
 				406458991B5363E600AD48A8 /* MUMyTourViewController.m in Sources */,
@@ -1383,6 +1420,7 @@
 				4064589F1B53B0D000AD48A8 /* MUMyAddressViewController.m in Sources */,
 				40EA59CE1B5895CB00B81FE8 /* MUFOrderAddressCell.m in Sources */,
 				8D45C5051B2FC50900B8552F /* MUManorTourDetailViewController.m in Sources */,
+				1892CE621B6A17BF0060DD16 /* MUFarmCategyCell.m in Sources */,
 				40EA59F01B5895CB00B81FE8 /* MUMDetailTourHeadCell.m in Sources */,
 				8D44840E1B2974520018EAFF /* MUFarmOrderViewController.m in Sources */,
 				40EA59F21B5895CB00B81FE8 /* MUTDetailContentCell.m in Sources */,
